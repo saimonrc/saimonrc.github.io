@@ -1,0 +1,62 @@
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 100%; margin: 0 auto 30px auto; padding: 50px 30px; background: radial-gradient(circle at center, #0f233c 0%, #071224 100%); color: #ffffff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); border: 1px solid #1a365d; position: relative; overflow: hidden; z-index: 1;">
+    
+    <!-- CYBER GLOW BACKGROUND ANIMATION LAYER -->
+    <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent 45%, rgba(0, 203, 203, 0.03) 50%, transparent 55%); animation: cyberPulse 8s linear infinite; pointer-events: none; z-index: -1;"></div>
+    
+    <!-- LIGHTING PARTICLES EFFECT -->
+    <div style="position: absolute; width: 10px; height: 10px; background: #00cbcb; border-radius: 50%; top: 20%; left: 15%; opacity: 0.2; filter: blur(2px); animation: floatParticle 6s ease-in-out infinite;"></div>
+    <div style="position: absolute; width: 6px; height: 6px; background: #38bdf8; border-radius: 50%; bottom: 25%; right: 18%; opacity: 0.3; filter: blur(1px); animation: floatParticle 4s ease-in-out infinite alternate;"></div>
+
+    <!-- MAIN BRANDING & METADATA -->
+    <div style="text-align: center; max-width: 750px; margin: 0 auto; position: relative;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; border: 1px solid #00cbcb; box-shadow: 0 0 10px rgba(0,203,203,0.2);">
+            Enterprise Core Node
+        </span>
+        <h1 style="color: #00cbcb; margin: 15px 0 10px 0; font-size: 32px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-shadow: 0 0 15px rgba(0,203,203,0.3);">
+            Saimon Portfolio Systems
+        </h1>
+        <p style="color: #a0aec0; margin: 0 0 25px 0; font-size: 15px; font-weight: 500; line-height: 1.6;">
+            Global IT Infrastructure, Cross-Functional Systems Integration & Strategic Operations Management
+        </p>
+    </div>
+
+    <!-- HIGH-TECH NETWORK PERFORMANCE METRICS PANELS -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: 0 auto; background: rgba(7, 18, 36, 0.7); padding: 15px; border-radius: 8px; border: 1px solid #1a365d; backdrop-filter: blur(4px);">
+        <!-- Metric 1 -->
+        <div style="text-align: center; border-right: 1px dashed #1a365d; padding: 5px 0;">
+            <div style="font-size: 11px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 3px;">System Availability</div>
+            <div style="font-size: 18px; font-weight: bold; color: #00cbcb; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <span style="width: 8px; height: 8px; background: #00cbcb; border-radius: 50%; display: inline-block; animation: blinkNode 1.5s infinite;"></span>
+                99.99%
+            </div>
+        </div>
+        <!-- Metric 2 -->
+        <div style="text-align: center; border-right: 1px dashed #1a365d; padding: 5px 0;">
+            <div style="font-size: 11px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 3px;">Data Ingestion Path</div>
+            <div style="font-size: 18px; font-weight: bold; color: #38bdf8;">Multi-Region</div>
+        </div>
+        <!-- Metric 3 -->
+        <div style="text-align: center; padding: 5px 0;">
+            <div style="font-size: 11px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 3px;">Security Status</div>
+            <div style="font-size: 18px; font-weight: bold; color: #00cbcb;">Optimal Sec</div>
+        </div>
+    </div>
+
+</div>
+
+<!-- EMBEDDED CYBER ANIMATION STYLES -->
+<style>
+@keyframes cyberPulse {
+    0% { transform: translate(-30%, -30%) rotate(0deg); }
+    100% { transform: translate(-30%, -30%) rotate(360deg); }
+}
+@keyframes floatParticle {
+    0% { transform: translateY(0) translateX(0); opacity: 0.2; }
+    50% { transform: translateY(-15px) translateX(10px); opacity: 0.4; }
+    100% { transform: translateY(0) translateX(0); opacity: 0.2; }
+}
+@keyframes blinkNode {
+    0%, 100% { opacity: 0.3; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.2); box-shadow: 0 0 8px #00cbcb; }
+}
+</style>
