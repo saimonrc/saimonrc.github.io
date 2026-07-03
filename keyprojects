@@ -1,1 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Key Projects - Saimon Portfolio</title>
+</head>
+<body style="background-color: #071224; margin: 0; padding: 0;">
+
+    <nav style="text-align: center; padding: 20px; background: #0f233c; border-bottom: 1px solid #1a365d; margin-bottom: 30px;">
+        <a href="index.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">HOME</a>
+        <a href="portfolio.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">THE VAULT</a>
+        <a href="keyprojects.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">KEY PROJECTS</a>
+        <a href="about.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">ABOUT ME</a>
+        <a href="contact.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">CONTACT</a>
+        <a href="beta.html" style="color: #ff0000; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">BETA SECTOR</a>
+    </nav>
+
+    <div style="padding: 20px; color: #ffffff;">
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 100%; margin: 0 auto 30px auto; padding: 45px 30px; background: radial-gradient(circle at center, #0a1f33 0%, #060e1a 100%); color: #ffffff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); border: 1px solid #1a365d; position: relative; overflow: hidden; z-index: 1;">
+    
+    <!-- HIGH-TECH ANALYTICS GRID EFFECT -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(56, 189, 248, 0.015) 1px, transparent 1px), linear-gradient(90deg, rgba(56, 189, 248, 0.015) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; z-index: -1;"></div>
+    
+    <!-- LIVE PULSING INTEL GLOW -->
+    <div style="position: absolute; width: 150px; height: 150px; background: #38bdf8; border-radius: 50%; bottom: -50px; left: -50px; opacity: 0.04; filter: blur(40px); animation: pulseGlow 5s ease-in-out infinite;"></div>
+
+    <!-- MAIN BRANDING & PROJECT TEXT -->
+    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; border: 1px solid #00cbcb; box-shadow: 0 0 10px rgba(0,203,203,0.1);">
+            Enterprise Portfolio
+        </span>
+        <h1 style="color: #00cbcb; margin: 15px 0 10px 0; font-size: 30px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-shadow: 0 0 15px rgba(0,203,203,0.2);">
+            Strategic Operations & Project Hub
+        </h1>
+        <p style="color: #cbd5e0; margin: 0 0 25px 0; font-size: 14px; font-weight: 500; line-height: 1.6; max-width: 720px; margin-left: auto; margin-right: auto;">
+            A centralized showcase of high-impact national infrastructure deployment, multi-vendor technology integrations, and enterprise-grade workflow automation matrices.
+        </p>
+    </div>
+
+    <!-- PROJECT MANAGEMENT METRICS -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: 0 auto; background: rgba(6, 14, 26, 0.85); padding: 12px 15px; border-radius: 8px; border: 1px solid #102a45;">
+        <div style="text-align: center; border-right: 1px dashed #102a45;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Deployment Scope</div>
+            <div style="font-size: 15px; font-weight: bold; color: #00cbcb; display: flex; align-items: center; justify-content: center; gap: 5px;">
+                <span style="width: 6px; height: 6px; background: #38bdf8; border-radius: 50%; display: inline-block; animation: analyticsPulse 1.5s infinite;"></span>
+                National-Scale
+            </div>
+        </div>
+        <div style="text-align: center; border-right: 1px dashed #102a45;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Operational Status</div>
+            <div style="font-size: 15px; font-weight: bold; color: #38bdf8;">Optimal Metrics</div>
+        </div>
+        <div style="text-align: center;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Governance Model</div>
+            <div style="font-size: 15px; font-weight: bold; color: #00cbcb;">End-to-End Compliance</div>
+        </div>
+    </div>
+
+</div>
+
+<!-- EMBEDDED ANIMATION STYLE -->
+<style>
+@keyframes pulseGlow {
+    0%, 100% { opacity: 0.02; transform: scale(1); }
+    50% { opacity: 0.06; transform: scale(1.1); }
+}
+@keyframes analyticsPulse {
+    0%, 100% { opacity: 0.4; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.1); box-shadow: 0 0 6px #38bdf8; }
+}
+</style>
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 30px; background: #0b1a30; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid #1a365d;">
+    
+    <!-- MAIN HEADER -->
+    <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px dashed #008080; padding-bottom: 20px;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Case Study</span>
+        <h2 style="color: #00cbcb; margin: 10px 0 0 0; font-size: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
+            Global Supply Chain Optimization Model
+        </h2>
+        <p style="color: #a0aec0; margin: 5px 0 0 0; font-size: 14px;">Healthcare Operations & Wholesale Supply Chain Technology Integration (2018–Present)</p>
+    </div>
+
+    <!-- EXECUTIVE METRICS (KPIs) -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-bottom: 40px;">
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">-40%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Processing Delays</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #1a365d; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #38bdf8; margin-bottom: 5px;">100%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Real-time Stock Visibility</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">94%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Fulfillment Accuracy</div>
+        </div>
+    </div>
+
+    <!-- ARCHITECTURE & OPERATIONAL FLOW -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">1. Operational Infrastructure Workflow</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 40px;">
+        <div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Supply Chain Inputs</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Global Vendor Coordination:</strong> Seamless end-to-end multi-country procurement.</li>
+                    <li><strong>Medical Devices Management:</strong> Strict inbound tracking of complex healthcare systems.</li>
+                    <li><strong>Surgical Instruments Sourcing:</strong> Quality-centric raw asset logs.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Global Surgical Instruments Operations</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Modern Inventory Management:</strong> RFID & automated stock tracking integrations.</li>
+                    <li><strong>End-to-End Workflow Optimization:</strong> Drastic process streamlining to cut delays.</li>
+                    <li><strong>Data-Driven Decisions:</strong> Turnover analytics & high-accuracy demand forecasting.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style="background: #071224; border: 1px solid #008080; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 15px;">Efficient Fulfillment & Distribution</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Agile Order Processing:</strong> Rapid order execution to reduce transaction latency.</li>
+                    <li><strong>Cargo & Fleet Optimization:</strong> Strategic routing minimized delivery time blocks.</li>
+                    <li><strong>Minimized Latency:</strong> Real-time automated tracking of shipments.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Business Impact & Growth</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Scalable Expansion:</strong> Scaled infrastructure to accommodate global market needs.</li>
+                    <li><strong>Resource Allocation:</strong> Dynamic distribution optimization of workforce and capital.</li>
+                    <li><strong>Enhanced Customer Service:</strong> Superior client retention via delivery reliability.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SYSTEM EFFICIENCY MATRIX -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">2. Operational Impact Metrics</h3>
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px; background: #071224; padding: 20px; border-radius: 8px; border: 1px solid #1a365d;">
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Inventory Overhead Reduction (Resource Savings)</span><span style="color: #00cbcb; font-weight: bold;">88%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 88%; background: linear-gradient(90deg, #005B5B, #00cbcb); height: 100%;"></div></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Demand Forecasting Model Accuracy</span><span style="color: #38bdf8; font-weight: bold;">92%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 92%; background: linear-gradient(90deg, #1e40af, #38bdf8); height: 100%;"></div></div>
+        </div>
+    </div>
+
+    <!-- CORE SKILLS & TECH STACK -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">3. Technology Stack & Operational Expertise</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">RFID & Automated Asset Tracking</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Predictive Turnover Analytics</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Agile Order Fulfillment Logics</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Wholesale Logistics & Dispatch Control</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Strategic Executive Leadership</span>
+    </div>
+
+    <!-- ROLE EXECUTIVE SUMMARY -->
+    <div style="background: #071224; padding: 15px; border-radius: 8px; border-left: 4px solid #00cbcb; font-size: 13px; line-height: 1.6; color: #cbd5e0;">
+        <strong style="color: #00cbcb;">Business Operating Officer (BOO) Summary:</strong> Spearheaded the wholesale optimization model for global medical device logistics. Re-engineered manual processing frameworks into responsive data-driven systems, reducing pipeline delay matrices by 40% while deploying automated tracking architectures to secure 100% inventory lifecycle transparency and sustainable institutional growth.
+    </div>
+
+</div>
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 30px; background: #0b1a30; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid #1a365d;">
+    
+    <!-- MAIN HEADER -->
+    <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px dashed #008080; padding-bottom: 20px;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Case Study</span>
+        <h2 style="color: #00cbcb; margin: 10px 0 0 0; font-size: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
+            Global Supply Chain Optimization Model
+        </h2>
+        <p style="color: #a0aec0; margin: 5px 0 0 0; font-size: 14px;">Healthcare Operations & Wholesale Supply Chain Technology Integration (2018–Present)</p>
+    </div>
+
+    <!-- EXECUTIVE METRICS (KPIs) -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-bottom: 40px;">
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">-40%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Processing Delays</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #1a365d; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #38bdf8; margin-bottom: 5px;">100%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Real-time Stock Visibility</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">94%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Fulfillment Accuracy</div>
+        </div>
+    </div>
+
+    <!-- ARCHITECTURE & OPERATIONAL FLOW -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">1. Operational Infrastructure Workflow</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 40px;">
+        <div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Supply Chain Inputs</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Global Vendor Coordination:</strong> Seamless end-to-end multi-country procurement.</li>
+                    <li><strong>Medical Devices Management:</strong> Strict inbound tracking of complex healthcare systems.</li>
+                    <li><strong>Surgical Instruments Sourcing:</strong> Quality-centric raw asset logs.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Global Surgical Instruments Operations</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Modern Inventory Management:</strong> RFID & automated stock tracking integrations.</li>
+                    <li><strong>End-to-End Workflow Optimization:</strong> Drastic process streamlining to cut delays.</li>
+                    <li><strong>Data-Driven Decisions:</strong> Turnover analytics & high-accuracy demand forecasting.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style="background: #071224; border: 1px solid #008080; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 15px;">Efficient Fulfillment & Distribution</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Agile Order Processing:</strong> Rapid order execution to reduce transaction latency.</li>
+                    <li><strong>Cargo & Fleet Optimization:</strong> Strategic routing minimized delivery time blocks.</li>
+                    <li><strong>Minimized Latency:</strong> Real-time automated tracking of shipments.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Business Impact & Growth</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Scalable Expansion:</strong> Scaled infrastructure to accommodate global market needs.</li>
+                    <li><strong>Resource Allocation:</strong> Dynamic distribution optimization of workforce and capital.</li>
+                    <li><strong>Enhanced Customer Service:</strong> Superior client retention via delivery reliability.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SYSTEM EFFICIENCY MATRIX -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">2. Operational Impact Metrics</h3>
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px; background: #071224; padding: 20px; border-radius: 8px; border: 1px solid #1a365d;">
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Inventory Overhead Reduction (Resource Savings)</span><span style="color: #00cbcb; font-weight: bold;">88%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 88%; background: linear-gradient(90deg, #005B5B, #00cbcb); height: 100%;"></div></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Demand Forecasting Model Accuracy</span><span style="color: #38bdf8; font-weight: bold;">92%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 92%; background: linear-gradient(90deg, #1e40af, #38bdf8); height: 100%;"></div></div>
+        </div>
+    </div>
+
+    <!-- CORE SKILLS & TECH STACK -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">3. Technology Stack & Operational Expertise</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">RFID & Automated Asset Tracking</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Predictive Turnover Analytics</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Agile Order Fulfillment Logics</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Wholesale Logistics & Dispatch Control</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Strategic Executive Leadership</span>
+    </div>
+
+    <!-- ROLE EXECUTIVE SUMMARY -->
+    <div style="background: #071224; padding: 15px; border-radius: 8px; border-left: 4px solid #00cbcb; font-size: 13px; line-height: 1.6; color: #cbd5e0;">
+        <strong style="color: #00cbcb;">Business Operating Officer (BOO) Summary:</strong> Spearheaded the wholesale optimization model for global medical device logistics. Re-engineered manual processing frameworks into responsive data-driven systems, reducing pipeline delay matrices by 40% while deploying automated tracking architectures to secure 100% inventory lifecycle transparency and sustainable institutional growth.
+    </div>
+
+</div>
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 30px; background: #0b1a30; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid #1a365d;">
+    
+    <!-- MAIN HEADER -->
+    <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px dashed #008080; padding-bottom: 20px;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Case Study</span>
+        <h2 style="color: #00cbcb; margin: 10px 0 0 0; font-size: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
+            National Identity Infrastructure: Machine Readable Passports & Visa (MRP/MRV) System Deployment
+        </h2>
+        <p style="color: #a0aec0; margin: 5px 0 0 0; font-size: 14px;">IRIS-JV (Malaysia) & iPeople Limited — Liaison with Department of Immigration & Passports (DIP) (2010–2018)</p>
+    </div>
+
+    <!-- EXECUTIVE METRICS (KPIs) -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-bottom: 40px;">
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">30M+</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Identities Enrolled</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #1a365d; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #38bdf8; margin-bottom: 5px;">75+</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Global Missions & RPOs</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">99.9%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Database Uptime</div>
+        </div>
+    </div>
+
+    <!-- ARCHITECTURE LAYOUT GRID -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">1. System Component Architecture</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 40px;">
+        <div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">PMO & Governance</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Project Management Office:</strong> Controls overall infrastructure lifecycle.</li>
+                    <li><strong>Strategic Direction:</strong> Cross-functional framework & timeline alignment.</li>
+                    <li><strong>Resource Optimization:</strong> Dynamic allocation of technology and on-site assets.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Department of Immigration & Passports</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Strategic Integrity Analysis:</strong> Fraud control & system security validation.</li>
+                    <li><strong>National ID Data (NID):</strong> Real-time biometric verification integration.</li>
+                    <li><strong>Prime Databases:</strong> Secure identity registries central hosting.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style="background: #071224; border: 1px solid #008080; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 160px;">
+                <h4 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 15px;">Project Vault Core (MRP & MRV)</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Centralized Vault:</strong> Secure data sync for national passport/visa issuances.</li>
+                    <li><strong>IRIS-JV Subsystem:</strong> Joint Venture biometric data integration framework.</li>
+                    <li><strong>Biometric Data Input:</strong> Multimodal data handling (Fingerprints & Digital Photo).</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 160px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Deployment & Monitoring</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Operational Deployment:</strong> Nationwide RPO site execution and staff training modules.</li>
+                    <li><strong>Onsite Support:</strong> Tiered maintenance structure for real-time risk mitigation.</li>
+                    <li><strong>Performance Metrics:</strong> Continuous health reporting to the steering committee.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- OPERATIONAL EFFICIENCY MATRIX -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">2. Operational Efficiency Matrix</h3>
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px; background: #071224; padding: 20px; border-radius: 8px; border: 1px solid #1a365d;">
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Project Vault Central Sync Efficiency</span><span style="color: #00cbcb; font-weight: bold;">95%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 95%; background: linear-gradient(90deg, #005B5B, #00cbcb); height: 100%;"></div></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Biometric De-duplication & IRIS Matching Accuracy</span><span style="color: #38bdf8; font-weight: bold;">98%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 98%; background: linear-gradient(90deg, #1e40af, #38bdf8); height: 100%;"></div></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>National Database Interoperability</span><span style="color: #00cbcb; font-weight: bold;">90%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 90%; background: linear-gradient(90deg, #005B5B, #00cbcb); height: 100%;"></div></div>
+        </div>
+    </div>
+
+    <!-- CORE COMPETENCIES & TECH TAGS -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">3. Project Tech Stack & Domain Expertise</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Biometric AFIS & IRIS Integration</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Oracle & Enterprise SQL Sync</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">ICAO Doc 9303 Security Standards</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">ITIL Service Operations Framework</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">On-site Resource & SLA Management</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Disaster Recovery Planning (DRP)</span>
+    </div>
+
+    <!-- SMR & TEAM LEADER EXECUTIVE SUMMARY -->
+    <div style="background: #071224; padding: 15px; border-radius: 8px; border-left: 4px solid #00cbcb; font-size: 13px; line-height: 1.6; color: #cbd5e0;">
+        <strong style="color: #00cbcb;">Site Resource Manager & Team Leader Summary:</strong> Managed critical on-site operations, team structures, and localized tech infrastructure deployment across regional passport hubs and foreign missions. Maintained operational synchronization between the IRIS-JV consortium, iPeople Limited, and the Department of Immigration & Passports (DIP) to guarantee strict ICAO standard compliance, optimized physical asset utilization, and rapid milestone achievements.
+    </div>
+
+</div>
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 30px; background: #0b1a30; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid #1a365d;">
+    
+    <!-- MAIN HEADER -->
+    <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px dashed #008080; padding-bottom: 20px;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Case Study</span>
+        <h2 style="color: #00cbcb; margin: 10px 0 0 0; font-size: 24px; letter-spacing: 0.5px; text-transform: uppercase;">
+            Factory Operations & Quality Governance Framework
+        </h2>
+        <p style="color: #a0aec0; margin: 5px 0 0 0; font-size: 14px;">Operational Governance & Workforce Optimization — M. Ahmed Tea & Lands Co. Ltd (2004–2007)</p>
+    </div>
+
+    <!-- EXECUTIVE METRICS (KPIs) -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; margin-bottom: 40px;">
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">Zero</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Defect Commitment</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #1a365d; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #38bdf8; margin-bottom: 5px;">100%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">OHS Compliance</div>
+        </div>
+        <div style="background: #112d4e; border: 1px solid #005B5B; padding: 20px; border-radius: 8px;">
+            <div style="font-size: 32px; font-weight: bold; color: #00cbcb; margin-bottom: 5px;">+25%</div>
+            <div style="font-size: 11px; color: #cbd5e0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Line Efficiency</div>
+        </div>
+    </div>
+
+    <!-- ARCHITECTURE & OPERATIONAL FLOW -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">1. Factory Operational Workflow</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-bottom: 40px;">
+        <div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 175px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Incoming Materiel Governance</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Raw Tea Influx:</strong> Source-to-storage inflow log and strict logistics check.</li>
+                    <li><strong>Quality Protocols:</strong> Rigid raw material inspection and lab analysis.</li>
+                    <li><strong>Conformity Gate:</strong> Sample testing leading to direct storage or material rejection.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 175px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Production Operations & Packaging</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Line Ready Calibration:</strong> Systematic machine setup for flawless operation.</li>
+                    <li><strong>Assembly & Encapsulation:</strong> High-speed mechanized bulk packaging flows.</li>
+                    <li><strong>Product Integrity:</strong> Intermediate workflow checks and final pack palletizing.</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div style="background: #071224; border: 1px solid #008080; border-radius: 8px; padding: 15px; margin-bottom: 20px; height: 175px;">
+                <h4 style="color: #38bdf8; margin: 0 0 10px 0; font-size: 15px;">Workforce Governance & Safety</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Continuous Monitoring:</strong> Real-time line efficiency audits and analytics.</li>
+                    <li><strong>Worker Trainings:</strong> Targeted upskilling and technical skills-gap training.</li>
+                    <li><strong>Safety Induction:</strong> Rigorous OHS audits, hazard containment, and corrective actions.</li>
+                </ul>
+            </div>
+            <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 15px; height: 175px;">
+                <h4 style="color: #00cbcb; margin: 0 0 10px 0; font-size: 15px;">Executive Reporting & Alignment</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 12px; color: #cbd5e0; line-height: 1.6;">
+                    <li><strong>Data Aggregation:</strong> Operational performance dashboards and KPI analytics.</li>
+                    <li><strong>Board Review:</strong> Strategic reports delivered directly for executive alignment.</li>
+                    <li><strong>Continuous Improvement:</strong> Re-aligning operational plans for governance approval.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SYSTEM EFFICIENCY MATRIX -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">2. Governance & Quality Frameworks</h3>
+    <div style="display: flex; flex-direction: column; gap: 15px; margin-bottom: 40px; background: #071224; padding: 20px; border-radius: 8px; border: 1px solid #1a365d;">
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>ISO & Quality Certification Standards Compliance</span><span style="color: #00cbcb; font-weight: bold;">100%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 100%; background: linear-gradient(90deg, #005B5B, #00cbcb); height: 100%;"></div></div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; color: #e2e8f0;">
+                <span>Operational Resource Optimization Index</span><span style="color: #38bdf8; font-weight: bold;">94%</span>
+            </div>
+            <div style="width: 100%; background: #112d4e; height: 10px; border-radius: 10px; overflow: hidden;"><div style="width: 94%; background: linear-gradient(90deg, #1e40af, #38bdf8); height: 100%;"></div></div>
+        </div>
+    </div>
+
+    <!-- CORE SKILLS & TECH STACK -->
+    <h3 style="color: #38bdf8; font-size: 16px; text-transform: uppercase; margin-bottom: 15px; border-left: 3px solid #38bdf8; padding-left: 10px;">3. Domain Expertise & Operational Standards</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">FMCG Packaging & Processing Automation</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">ISO Quality Management Systems (QMS)</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Occupational Health & Safety (OHS)</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">Workforce Deployment & Line Audits</span>
+        <span style="background: #112d4e; color: #38bdf8; padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600; border: 1px solid #1e3a8a;">KPI Dashboard Reporting & Strategic Alignment</span>
+    </div>
+
+    <!-- FACTORY IN-CHARGE EXECUTIVE SUMMARY -->
+    <div style="background: #071224; padding: 15px; border-radius: 8px; border-left: 4px solid #00cbcb; font-size: 13px; line-height: 1.6; color: #cbd5e0;">
+        <strong style="color: #00cbcb;">Factory In-charge Summary:</strong> Executed end-to-end operational governance and workforce optimization strategies within the Tea Packaging Division. Directed critical plant logistics, rigid laboratory raw materiel screening, and high-speed automated packaging flows while institutionalizing strict OHS audits and data-driven executive reporting matrices to consistently deliver zero-defect quality and optimized factory uptime.
+    </div>
+
+</div>
 
