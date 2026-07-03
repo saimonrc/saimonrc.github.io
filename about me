@@ -1,1 +1,207 @@
+<nav style="text-align: center; padding: 20px; background: #0f233c; border-bottom: 1px solid #1a365d; margin-bottom: 30px;">
+    <a href="index.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">HOME</a>
+    <a href="portfolio.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">THE VAULT</a>
+    <a href="keyprojects.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">KEY PROJECTS</a>
+    <a href="about.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">ABOUT ME</a>
+    <a href="contact.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">CONTACT</a>
+    <a href="beta.html" style="color: #ff0000; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">BETA SECTOR</a>
+</nav>
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 100%; margin: 0 auto -5px auto; padding: 45px 30px 40px 30px; background: radial-gradient(circle at center, #0e273c 0%, #071224 100%); color: #ffffff; border-radius: 12px 12px 0 0; box-shadow: 0 5px 15px rgba(0,0,0,0.3); border: 1px solid #1a365d; border-bottom: none; position: relative; overflow: hidden; z-index: 1;">
+    
+    <!-- HIGH-TECH PULSING LINES BACKGROUND EFFECT -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(0deg, transparent 24%, rgba(0, 203, 203, 0.01) 25%, rgba(0, 203, 203, 0.01) 26%, transparent 27%, transparent 74%, rgba(0, 203, 203, 0.01) 75%, rgba(0, 203, 203, 0.01) 76%, transparent 77%), linear-gradient(90deg, transparent 24%, rgba(0, 203, 203, 0.01) 25%, rgba(0, 203, 203, 0.01) 26%, transparent 27%, transparent 74%, rgba(0, 203, 203, 0.01) 75%, rgba(0, 203, 203, 0.01) 76%, transparent 77%); background-size: 50px 50px; pointer-events: none; z-index: -1;"></div>
 
+    <!-- EXECUTIVE HEADING & CORE FOCUS -->
+    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <span style="background: #005B5B; color: #00cbcb; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; border: 1px solid #00cbcb;">
+            Executive Identity
+        </span>
+        <h1 style="color: #00cbcb; margin: 15px 0 10px 0; font-size: 30px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase;">
+            Operations & Systems Governance
+        </h1>
+        <p style="color: #cbd5e0; margin: 0 0 25px 0; font-size: 14px; font-weight: 500; line-height: 1.6; max-width: 700px; margin-left: auto; margin-right: auto;">
+            A seasoned strategist dedicated to mitigating cross-functional operational friction, scaling industrial uptime, and engineering high-integrity digital automation frameworks.
+        </p>
+    </div>
+
+    <!-- CORE COMPETENCY METRICS -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: 0 auto; background: rgba(7, 18, 36, 0.8); padding: 12px 15px; border-radius: 8px; border: 1px solid #1a365d;">
+        <div style="text-align: center; border-right: 1px dashed #1a365d;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Domain Operations</div>
+            <div style="font-size: 16px; font-weight: bold; color: #00cbcb;">Cross-Functional</div>
+        </div>
+        <div style="text-align: center; border-right: 1px dashed #1a365d;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Strategic Leadership</div>
+            <div style="font-size: 16px; font-weight: bold; color: #38bdf8;">Decade+ Grid</div>
+        </div>
+        <div style="text-align: center;">
+            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Workflow Focus</div>
+            <div style="font-size: 16px; font-weight: bold; color: #00cbcb;">Zero Friction</div>
+        </div>
+    </div>
+
+</div>
+
+<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 30px; background: #ffffff; border-radius: 8px; border: 1px solid #e2e8f0; box-shadow: 0 4px 12px rgba(0,0,0,0.02);">
+
+  <!-- SUB-TITLE -->
+  <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: #005B5B; font-weight: 700; margin-bottom: 10px;">
+    Professional Profile &amp; Executive Trajectory
+  </div>
+
+  <!-- PRIMARY CORE STATEMENT -->
+  <p style="font-size: 15px; line-height: 1.8; color: #2d3748; margin: 0 0 20px 0; text-align: justify; font-weight: 500;">
+    A results-driven IT Operations Manager and Site Resource Team Leader with over a decade of cross-functional experience orchestrating mission-critical technical infrastructures, workforce deployment, and human resource frameworks. Adept at navigating high-pressure national identity systems, complex industrial automation lines, and wholesale supply chain integrations with a core focus on resource optimization, operations management, and zero-friction execution.
+  </p>
+
+  <!-- DETAILED PROFESSIONAL JOURNEY -->
+  <p style="font-size: 14.5px; line-height: 1.75; color: #4a5568; margin: 0 0 25px 0; text-align: justify;">
+    Throughout a distinguished career spanning institutional sectors — from high-stakes public safety and infrastructure technology with the IRIS-JV (Malaysia) &amp; iPeople Limited consortium to advanced operations management and packaging governance at M. Ahmed Tea &amp; Lands Co. Ltd — my execution matrix has consistently centered on building resilient operational systems. My domain mastery bridges resource management with secure workflow frameworks, assuring absolute compliance with international standards such as ICAO Doc 9303 security features and ISO quality management systems.
+  </p>
+
+  <!-- SAIMONTECHBLOGS BRIDGE -->
+  <div style="background: #F7FAFC; border-left: 4px solid #C8A84B; padding: 14px 18px; border-radius: 0 6px 6px 0; margin: 0 0 28px 0;">
+    <p style="font-size: 13.5px; line-height: 1.7; color: #4a5568; margin: 0; font-style: italic;">
+      Beyond operations, I decode technology for
+      <strong style="color: #1A2E4A;">28,000+ professionals</strong> at
+      <a href="https://saimontechblogs.blogspot.com" target="_blank"
+         style="color: #2B6CB0; text-decoration: none; font-weight: 700;">SaimonTechBlogs</a>
+      — publishing every Tuesday &amp; Thursday on
+      <strong style="color: #1A2E4A;">AI, Cybersecurity, Digital Humanism</strong>
+      and the <strong style="color: #1A2E4A;">Future of Work.</strong>
+    </p>
+  </div>
+
+  <!-- SECTION LABEL -->
+  <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #A0AEC0; font-weight: 700; margin-bottom: 16px; border-top: 1px dashed #e2e8f0; padding-top: 22px;">
+    Core Management Pillars
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       SINGLE TABLE — Headers in Row 1, Bodies in Row 2
+       Row cells auto-equalize height within each row
+       ══════════════════════════════════════════════════════ -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+    <!-- ── ROW 1: Three Headers ── -->
+    <tr>
+      <!-- Blue header -->
+      <td width="32%" bgcolor="#3A8FD4"
+          style="padding: 13px 16px; border-radius: 8px 8px 0 0;
+                 border-top: 1px solid #BEE3F8;
+                 border-left: 1px solid #BEE3F8;
+                 border-right: 1px solid #BEE3F8;">
+        <span style="color:#fff; font-size:13px; font-weight:700; letter-spacing:0.4px;">
+          ◈ Resource Optimization
+        </span>
+      </td>
+      <!-- Spacer -->
+      <td width="2%"></td>
+      <!-- Teal header -->
+      <td width="32%" bgcolor="#2FA8A2"
+          style="padding: 13px 16px; border-radius: 8px 8px 0 0;
+                 border-top: 1px solid #81E6D9;
+                 border-left: 1px solid #81E6D9;
+                 border-right: 1px solid #81E6D9;">
+        <span style="color:#fff; font-size:13px; font-weight:700; letter-spacing:0.4px;">
+          ◈ Systems Compliance
+        </span>
+      </td>
+      <!-- Spacer -->
+      <td width="2%"></td>
+      <!-- Amber header -->
+      <td width="32%" bgcolor="#E07E2A"
+          style="padding: 13px 16px; border-radius: 8px 8px 0 0;
+                 border-top: 1px solid #FBD38D;
+                 border-left: 1px solid #FBD38D;
+                 border-right: 1px solid #FBD38D;">
+        <span style="color:#fff; font-size:13px; font-weight:700; letter-spacing:0.4px;">
+          ◈ Team Leadership &amp; HR
+        </span>
+      </td>
+    </tr>
+
+    <!-- ── ROW 2: Three Bodies (auto-equal height) ── -->
+    <tr valign="top">
+
+      <!-- Blue body -->
+      <td bgcolor="#AECFF5" valign="top"
+          style="padding: 16px;
+                 border-bottom: 1px solid #BEE3F8;
+                 border-left: 1px solid #BEE3F8;
+                 border-right: 1px solid #BEE3F8;
+                 border-radius: 0 0 8px 8px;">
+        <span style="display:inline-block; background:#2B6CB0; color:#fff; font-size:9.5px; font-weight:700; letter-spacing:1px; padding:2px 8px; border-radius:3px; margin-bottom:10px; text-transform:uppercase;">
+          Asset · Workforce · Infrastructure
+        </span>
+        <p style="font-size:12.5px; color:#1A365D; line-height:1.75; margin:0 0 10px 0;">
+          Dynamic allocation of technology assets, technical staffing models, and localized operational infrastructure across regional hubs. Encompasses workforce capacity planning, vendor resource scheduling, and equipment lifecycle oversight — ensuring maximum throughput at minimum operational cost across multi-site deployments.
+        </p>
+        <p style="font-size:12px; color:#2B6CB0; margin:4px 0;">▸ Multi-vendor resource scheduling &amp; SLA oversight</p>
+        <p style="font-size:12px; color:#2B6CB0; margin:4px 0;">▸ Technical staffing &amp; capacity planning</p>
+        <p style="font-size:12px; color:#2B6CB0; margin:4px 0;">▸ Equipment lifecycle &amp; asset tracking</p>
+        <p style="font-size:12px; color:#2B6CB0; margin:4px 0;">▸ Real-time performance benchmarking</p>
+      </td>
+
+      <!-- Spacer -->
+      <td width="2%"></td>
+
+      <!-- Teal body -->
+      <td bgcolor="#96D9D4" valign="top"
+          style="padding: 16px;
+                 border-bottom: 1px solid #81E6D9;
+                 border-left: 1px solid #81E6D9;
+                 border-right: 1px solid #81E6D9;
+                 border-radius: 0 0 8px 8px;">
+        <span style="display:inline-block; background:#2C7A7B; color:#fff; font-size:9.5px; font-weight:700; letter-spacing:1px; padding:2px 8px; border-radius:3px; margin-bottom:10px; text-transform:uppercase;">
+          ICAO · ISO · OHS · Security
+        </span>
+        <p style="font-size:12.5px; color:#1D4044; line-height:1.75; margin:0 0 10px 0;">
+          Strict enforcement of data security policies, OHS safety standards, and multi-vendor SLA management workflows. Specialized in ICAO Doc 9303 international biometric standards and ISO Quality Management Systems — ensuring zero-deviation audit outcomes across high-stakes government and industrial environments.
+        </p>
+        <p style="font-size:12px; color:#234E52; margin:4px 0;">▸ ICAO Doc 9303 biometric compliance</p>
+        <p style="font-size:12px; color:#234E52; margin:4px 0;">▸ ISO QMS implementation &amp; audit</p>
+        <p style="font-size:12px; color:#234E52; margin:4px 0;">▸ Data security &amp; OHS enforcement</p>
+        <p style="font-size:12px; color:#234E52; margin:4px 0;">▸ National identity infrastructure governance</p>
+      </td>
+
+      <!-- Spacer -->
+      <td width="2%"></td>
+
+      <!-- Amber body -->
+      <td bgcolor="#F9CF8A" valign="top"
+          style="padding: 16px;
+                 border-bottom: 1px solid #FBD38D;
+                 border-left: 1px solid #FBD38D;
+                 border-right: 1px solid #FBD38D;
+                 border-radius: 0 0 8px 8px;">
+        <span style="display:inline-block; background:#C05621; color:#fff; font-size:9.5px; font-weight:700; letter-spacing:1px; padding:2px 8px; border-radius:3px; margin-bottom:10px; text-transform:uppercase;">
+          People · Culture · Performance
+        </span>
+        <p style="font-size:12.5px; color:#5C2500; line-height:1.75; margin:0 0 10px 0;">
+          Directing cross-functional technical teams, coordinating high-level stakeholder communications, and managing human resource workflows across diverse cultural and institutional environments. Proven track record in recruitment, onboarding frameworks, and performance evaluation — sustaining workforce morale under high-pressure delivery schedules.
+        </p>
+        <p style="font-size:12px; color:#7B341E; margin:4px 0;">▸ Cross-functional team direction &amp; coordination</p>
+        <p style="font-size:12px; color:#7B341E; margin:4px 0;">▸ Recruitment, onboarding &amp; performance review</p>
+        <p style="font-size:12px; color:#7B341E; margin:4px 0;">▸ Stakeholder &amp; executive communication</p>
+        <p style="font-size:12px; color:#7B341E; margin:4px 0;">▸ HR workflow design &amp; workforce continuity</p>
+      </td>
+
+    </tr>
+  </table><!-- end pillars -->
+
+  <!-- BOTTOM CTA -->
+  <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed #e2e8f0; text-align: center;">
+    <a href="https://saimontechblogs.blogspot.com" target="_blank"
+       style="display: inline-block; background: #1A2E4A; color: #C8A84B;
+              text-decoration: none; font-size: 13px; font-weight: 700;
+              padding: 11px 28px; border-radius: 6px; letter-spacing: 0.5px;
+              border: 1px solid #C8A84B;">
+      □ Visit SaimonTechBlogs →
+    </a>
+    <div style="font-size: 11px; color: #A0AEC0; margin-top: 10px; letter-spacing: 0.5px;">
+      saimontechblogs@gmail.com &nbsp;|&nbsp; New articles every Tuesday &amp; Thursday
+    </div>
+  </div>
+
+</div>
