@@ -1,590 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>SAIMON PORTFOLIO SYSTEMS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verified Global Credentials & IT Certifications Vault | Saimon</title>
+<meta name="description" content="A secure, centralized registry validating 60+ multi-domain IT, cybersecurity, OHS, and strategic leadership credentials from world-class institutions.">
+<style>
+  :root{
+    --bg:#0b1220;
+    --panel:#111a2b;
+    --panel-border:#22314a;
+    --text:#e8edf7;
+    --muted:#8fa0bf;
+    --accent:#3ecf8e;
+    --accent-2:#5b8def;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height:1.6;
+  }
+  header{
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+    padding:20px 32px; border-bottom:1px solid var(--panel-border);
+  }
+  header .brand{font-weight:700; letter-spacing:.04em; color:var(--text);}
+  nav a{
+    color:var(--muted); text-decoration:none; margin-left:22px; font-size:.9rem;
+  }
+  nav a:hover{color:var(--accent);}
+  main{max-width:960px; margin:0 auto; padding:48px 24px 96px;}
+  .eyebrow{
+    text-transform:uppercase; letter-spacing:.12em; font-size:.75rem; color:var(--accent);
+    margin-bottom:8px;
+  }
+  h1{font-size:2.1rem; margin:0 0 12px; color:var(--text);}
+  .lede{color:var(--muted); max-width:640px; margin-bottom:32px;}
+  .stats{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:16px; margin-bottom:40px;
+  }
+  .stat{
+    background:var(--panel); border:1px solid var(--panel-border); border-radius:10px;
+    padding:16px;
+  }
+  .stat .label{font-size:.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em;}
+  .stat .value{font-size:1.15rem; font-weight:600; margin-top:4px;}
+  .intro{
+    background:var(--panel); border:1px solid var(--panel-border); border-radius:12px;
+    padding:24px; margin-bottom:40px; color:var(--muted); font-size:.95rem;
+  }
+  .paths{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px; margin-bottom:48px;
+  }
+  .path-card{
+    background:var(--panel); border:1px solid var(--panel-border); border-radius:12px;
+    padding:20px;
+  }
+  .path-card h3{margin:0 0 8px; font-size:1rem; color:var(--accent-2);}
+  .path-card p{font-size:.88rem; color:var(--muted); margin:0 0 10px;}
+  .path-card ul{margin:0; padding-left:18px; font-size:.85rem; color:var(--text);}
+  section.category{margin-bottom:48px;}
+  section.category h2{
+    font-size:1.3rem; border-bottom:1px solid var(--panel-border); padding-bottom:10px;
+    margin-bottom:20px;
+  }
+  .group{margin-bottom:28px;}
+  .group h4{
+    font-size:.85rem; text-transform:uppercase; letter-spacing:.06em; color:var(--accent);
+    margin-bottom:10px;
+  }
+  .cred{
+    background:var(--panel); border:1px solid var(--panel-border); border-radius:8px;
+    padding:14px 16px; margin-bottom:10px;
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px;
+  }
+  .cred .name{font-weight:600; font-size:.92rem;}
+  .cred .id{font-size:.78rem; color:var(--muted); font-family:'Courier New',monospace;}
+  .cred a.verify{
+    font-size:.8rem; color:var(--bg); background:var(--accent);
+    padding:6px 12px; border-radius:6px; text-decoration:none; font-weight:600;
+    white-space:nowrap;
+  }
+  .cred a.verify:hover{background:var(--accent-2);}
+  .note{
+    font-size:.8rem; color:var(--muted); font-style:italic; margin-top:6px; width:100%;
+  }
+  .contact-cta{
+    background:var(--panel); border:1px dashed var(--panel-border); border-radius:10px;
+    padding:20px; text-align:center; color:var(--muted); font-size:.9rem;
+  }
+  .contact-cta a{
+    color:var(--bg); background:var(--accent); padding:10px 20px; border-radius:8px;
+    text-decoration:none; font-weight:600; display:inline-block; margin-top:10px;
+  }
+  footer{
+    text-align:center; padding:32px; color:var(--muted); font-size:.8rem;
+    border-top:1px solid var(--panel-border);
+  }
+</style>
 </head>
-<body style="background-color: #071224; margin: 0; padding: 20px;">
+<body>
 
-    
-    <nav style="text-align: center; padding: 20px; background: #0f233c; border-bottom: 1px solid #1a365d; margin-bottom: 30px;">
-    <a href="index.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">HOME</a>
-    <a href="portfolio.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">SAIMON PORTFOLIO</a>
-    <a href="keyprojects.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">KEY PROJECTS</a>
-    <a href="about.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">ABOUT ME</a>
-    <a href="contact.html" style="color: #00cbcb; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">CONTACT</a>
-    <a href="beta.html" style="color: #ff0000; margin: 0 15px; text-decoration: none; font-weight: bold; font-family: sans-serif;">BETA SECTOR</a>
-</nav>
+<header>
+  <div class="brand">SAIMON | IT SYSTEMS &amp; OPERATIONS MANAGEMENT PORTFOLIO</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="keyprojects.html">Key Projects</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 100%; margin: 0 auto 30px auto; padding: 45px 30px; background: radial-gradient(circle at center, #0a1f33 0%, #060e1a 100%); color: #ffffff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); border: 1px solid #1a365d; position: relative; overflow: hidden; z-index: 1;">
-        
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0, 203, 203, 0.015) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 203, 203, 0.015) 1px, transparent 1px); background-size: 30px 30px; pointer-events: none; z-index: -1;"></div>
-       
-        <div style="text-align: center; padding: 20px;">
-    <h1 style="color: #ffffff;">SAIMON PORTFOLIO SYSTEMS</h1>
-    <p style="color: #00cbcb;">SAIMON | IT SYSTEMS & OPERATIONS MANAGEMENT PORTFOLIO...</p>
-</div>
+<main>
+  <div class="eyebrow">Central Identity Vault</div>
+  <h1>Credential Integrity Infrastructure</h1>
+  <p class="lede">A secure registry for validating global compliance, multi-vendor network systems certifications, and enterprise-level operations credentials.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="label">Verification Path</div><div class="value">Public Registry Links</div></div>
+    <div class="stat"><div class="label">Audit Readiness</div><div class="value">100% Verifiable</div></div>
+    <div class="stat"><div class="label">Registry Status</div><div class="value">Actively Maintained</div></div>
+    <div class="stat"><div class="label">Credentials Listed</div><div class="value">60+</div></div>
+  </div>
+
+  <div class="intro">
+    This registry hosts an audited portfolio of 60+ international credentials spanning Network Security,
+    Industrial Automation, Operations Management, Human Resources, Occupational Health &amp; Safety (OHS),
+    TEFL, and Executive Resource Management. Each credential below links to its issuing institution's own
+    public verification system — nothing beyond the credential name and issuer is published here.
+  </div>
+
+  <div class="paths">
+    <div class="path-card">
+      <h3>1. Direct Verify Archive</h3>
+      <p>Credentials with a public, permanent verification link hosted directly by the issuer.</p>
+      <ul><li>Alison Global Education</li><li>Chemical Safety Institute</li><li>Tech &amp; Networking Labs</li><li>TEFL Worldwide Registry</li></ul>
+    </div>
+    <div class="path-card">
+      <h3>2. Instant Verify Portal</h3>
+      <p>Credentials verified through an issuer portal. Verification reference available on request — see Contact.</p>
+      <ul><li>Fortinet Cyber Security</li><li>Techview IT Architecture</li><li>VMEdu Scrum &amp; Agile</li><li>TR &amp; PDI Global Portals</li></ul>
+    </div>
+    <div class="path-card">
+      <h3>3. Official Inquiry Path</h3>
+      <p>Enterprise-grade credentials verifiable by request through the issuing institution directly.</p>
+      <ul><li>HP QLogic / ZyXEL Labs</li><li>AdTran University Ecosystem</li><li>CloudU Infrastructure</li><li>ISO Audits &amp; Compliance</li></ul>
+    </div>
+  </div>
+
+  <section class="category">
+    <h2>⚡ Direct Verify Archive</h2>
+
+    <div class="group">
+      <h4>Alison | Academic Records</h4>
+      <div class="cred"><div><div class="name">Diploma in Operations Management</div><div class="id">ID: 345-1002510</div></div>
+        <a class="verify" href="https://alison.com/certification/check/0108aca418" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Diploma in Human Resources</div><div class="id">ID: 347-1002510</div></div>
+        <a class="verify" href="https://alison.com/certification/check/440b576cd5" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Information Control for IT Managers</div><div class="id">ID: 720-1002510</div></div>
+        <a class="verify" href="https://alison.com/certification/check/c35d43c328" target="_blank" rel="noopener">View Record</a></div>
+    </div>
+
+    <div class="group">
+      <h4>Chemical Safety Association</h4>
+      <div class="cred"><div><div class="name">The COSHH Risk Assessor Certification™</div><div class="id">ID: 19360629</div></div>
+        <a class="verify" href="https://www.credential.net/1b7b895d-13a5-4d49-8824-8c43705183f9#acc.3yIcKGF2" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">The COSHH Manager Certification™</div><div class="id">ID: aoz0fovhyk</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/aoz0fovhyk" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">COSHH and Respiratory Sensitisers Awareness Course</div><div class="id">ID: z9vrp4cnfn</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/z9vrp4cnfn" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">COSHH Hazard Communication Awareness</div><div class="id">ID: e2yo6jpct3</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/e2yo6jpct3" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">The Safety Data Sheet Awareness Certification™</div><div class="id">ID: hipbz2sits</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/hipbz2sits" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Health and Safety Induction</div><div class="id">ID: qqsqqhxime</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/qqsqqhxime" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Positive Intervention and Situational Awareness Induction</div><div class="id">ID: m2kedgktg6</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/m2kedgktg6" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">SDS Identification: Regulatory Specific Formatting</div><div class="id">ID: coxmijl3j8</div></div>
+        <a class="verify" href="https://academy.theknightsofsafety.com/certificates/coxmijl3j8" target="_blank" rel="noopener">View Record</a></div>
+    </div>
+
+    <div class="group">
+      <h4>Tech, Automation &amp; Network</h4>
+      <div class="cred"><div><div class="name">Build Responsive Website using HTML5, CSS3, JS and Bootstrap</div><div class="id">ID: 3W0ISX3O7</div></div>
+        <a class="verify" href="https://www.educba.com/certificate/?c=3W0ISX3O7" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">ICSI | CNSS Certified Network Security Specialist</div><div class="id">No: 19126081</div></div>
+        <a class="verify" href="https://www.credential.net/07bdb782-0814-4795-87d9-f58894a88f4b#acc.ZecC7z2w" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Automating the Business Process</div><div class="id">ID: 12769271</div></div>
+        <a class="verify" href="https://www.credential.net/afhsrn5m#acc.UWkfNjlQ" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Automation Essentials</div><div class="id">ID: 12767600</div></div>
+        <a class="verify" href="https://www.credential.net/qqi3b9cl#acc.WMDSLIpn" target="_blank" rel="noopener">View Record</a></div>
+    </div>
+
+    <div class="group">
+      <h4>TEFL &amp; Others</h4>
+      <div class="cred"><div><div class="name">Teacher of English to Speakers of Other Languages (TEFL)</div><div class="id">ID: TR6112885022</div></div>
+        <a class="verify" href="https://teacherrecord.com/checking?so_zx=TR6112885022#checking_list/" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">Lean Six Sigma White Belt Certification</div><div class="id">ID: 18333402</div></div>
+        <a class="verify" href="https://www.credential.net/7861c13e-b85f-4b31-8911-390293a2eece#acc.lRw1U7tz" target="_blank" rel="noopener">View Record</a></div>
+      <div class="cred"><div><div class="name">SEMrush Content Marketing Toolkit Exam</div><div class="id">ID: 694b80161aaf8a6</div></div>
+        <a class="verify" href="https://static.semrush.com/academy-prod/certificate/6246936/SEMrush-Academy-Certificate-694b80161aaf8a6362323ab9041abd15f5ee28174683378463d24c2d2c74c1ab.png" target="_blank" rel="noopener">View Record</a></div>
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>🔑 Instant Verify Portal</h2>
+    <p class="lede" style="margin-bottom:20px;">
+      These credentials verify through the issuer's own lookup portal using a private reference code.
+      To protect the integrity of that code, it is not published on this page —
+      <a href="contact.html" style="color:var(--accent-2);">request it via the Contact page</a> and it will be shared securely.
+    </p>
+
+    <div class="group">
+      <h4>IT &amp; Network Portals</h4>
+      <div class="cred">
+        <div><div class="name">NSE 1 Network Security Associate (Fortinet)</div><div class="id">Reference available on request</div></div>
+        <a class="verify" href="https://training.fortinet.com/mod/customcert/verify_certificate.php" target="_blank" rel="noopener">Open Portal</a>
+      </div>
+      <div class="cred">
+        <div><div class="name">Computer Networking (Techviewteam)</div><div class="id">Reference available on request</div></div>
+        <a class="verify" href="https://www.techviewteam.com/mod/customcert/verify_certificate.php" target="_blank" rel="noopener">Open Portal</a>
+      </div>
+    </div>
+
+    <div class="group">
+      <h4>Management Registries</h4>
+      <div class="cred">
+        <div><div class="name">Six Sigma Yellow Belt (VMEdu Inc.)</div><div class="id">Registry ID: 721389</div></div>
+        <a class="verify" href="https://www.6sigmastudy.com/certification/certification-registry" target="_blank" rel="noopener">Open Registry</a>
+      </div>
+    </div>
+
+    <div class="group">
+      <h4>Language Verification</h4>
+      <div class="cred">
+        <div><div class="name">TEFL Certificate (TR &amp; PDI)</div><div class="id">Reference available on request</div></div>
+        <a class="verify" href="https://theteflcertificate.com/certificate-verification/" target="_blank" rel="noopener">Open Portal</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>✉️ Official Inquiry Path</h2>
+    <p class="lede" style="margin-bottom:20px;">
+      Enterprise-grade credentials verified directly by the issuing institution. To protect against
+      impersonation and credential forgery, contact details are not published individually — use the
+      single secure contact channel below and specify which credential you're verifying.
+    </p>
+
+    <div class="group">
+      <h4>HP QLogic Records</h4>
+      <div class="cred"><div><div class="name">QLogic Associate Certification (IBM, 2013)</div><div class="id">Cert ID: IBM2-30-361-121815-18760</div></div></div>
+      <div class="cred"><div><div class="name">QLogic Ethernet Adapter Technical Professional</div><div class="id">Cert ID: EATP-36-361-021216-18760</div></div></div>
+      <div class="cred"><div><div class="name">Adapter Associate (HP)</div><div class="id">Cert ID: AAHP-33-361-111215-18760</div></div></div>
+      <div class="cred"><div><div class="name">FabricCache Associate</div><div class="id">Cert ID: FBCA-24-361-111615-18760</div></div></div>
+      <div class="cred"><div><div class="name">FabricCache Specialist</div><div class="id">Cert ID: FBCS-27-361-111515-18760</div></div></div>
+      <div class="cred"><div><div class="name">Adapter Associate (Converged Network)</div><div class="id">Cert ID: AACN-31-361-111615-18760</div></div></div>
+      <div class="cred"><div><div class="name">Adapter Specialist (Converged Networking)</div><div class="id">Cert ID: ASCN-32-361-111615-18760</div></div></div>
+      <div class="cred"><div><div class="name">Adapter Associate (Fibre Channel)</div><div class="id">Cert ID: AAFC-21-361-111615-18760</div></div></div>
+      <div class="cred"><div><div class="name">Adapter Specialist (Fibre Channel)</div><div class="id">Cert ID: ASFC-23-361-111715-18760</div></div></div>
+    </div>
+
+    <div class="group">
+      <h4>ZyXEL Networks Records</h4>
+      <div class="cred"><div><div class="name">ZCNP in LTE</div><div class="id">Credential ID: 330434</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=1159&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in IP DSLAM</div><div class="id">Credential ID: 304636</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=177&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in Digital Home</div><div class="id">Credential ID: 3031071</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=375&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in Wireless LAN</div><div class="id">Credential ID: 3232395</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=179&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in Security</div><div class="id">Credential ID: 3192816</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=166&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in VoIP</div><div class="id">Credential ID: 322738</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=16*&" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ZCNP in Switch</div><div class="id">Credential ID: 3202450</div></div>
+        <a class="verify" href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=1*8&" target="_blank" rel="noopener">Routing Portal</a></div>
+    </div>
+
+    <div class="group">
+      <h4>AdTran University Records</h4>
+      <div class="cred"><div><div class="name">ASP/UCSS v4.0</div><div class="id">Credential ID: 22506762922</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762922" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ASP/vWLAN</div><div class="id">Credential ID: 22506762927</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762927" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ASP/UCAS</div><div class="id">Credential ID: 22506762905</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762905" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ASP/IPBG</div><div class="id">Credential ID: 22506762878</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762878" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/UCAS</div><div class="id">Credential ID: 22506774398</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774398" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/vWLAN</div><div class="id">Credential ID: 22506774402</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774402" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/FTTN (1600CSYS8002T)</div><div class="id">Credential ID: 22506535973</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506535973" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/OPTI-6100 (1600CSYS8003T)</div><div class="id">Credential ID: 22506153034</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/coursesummary.CourseCatalog.geo?id=22506153034" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/TA5000 (1600CSYS8001T)</div><div class="id">Credential ID: 22506153031</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506153031" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/UCSS</div><div class="id">Credential ID: 22506774399</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774399" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ATSA/IPBG</div><div class="id">Credential ID: 22506774397</div></div>
+        <a class="verify" href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774397" target="_blank" rel="noopener">Routing Portal</a></div>
+    </div>
+
+    <div class="group">
+      <h4>Cloud University &amp; QUT-BPM</h4>
+      <div class="cred"><div><div class="name">HE IPv6 Certified Explorer (Hurricane Electric)</div><div class="id">Credential ID: 65461b1eb0756b1.51266408</div></div>
+        <a class="verify" href="https://ipv6.he.net/certification/scoresheet.php?pass_name=Saimon75" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">Privileged Password Security (Thycotic Academy)</div><div class="id">Credential ID: 23f8c925</div></div>
+        <a class="verify" href="https://academy.thycotic.com/certificate/23f8c925/" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">Fundamentals of BPM (QUT-BPM)</div><div class="id">CRICOS No: 00213J</div></div>
+        <a class="verify" href="https://www.qut.edu.au/study/open-online-learning" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">Cloud Web Hosting Certificate (Rackspace)</div><div class="id">ID: CloudU-814e62c1-e843-40f1-b945-50d1894e3fcd</div></div></div>
+      <div class="cred"><div><div class="name">CloudU Certificate (Rackspace)</div><div class="id">ID: CloudU-887b6be9-b0f6-4634-919e-1c5d989f4464</div></div></div>
+      <div class="cred"><div><div class="name">Big Data Certificate (Rackspace)</div><div class="id">ID: CloudU-963aa682-043d-43d9-991c-4caa5fb6c6f0</div></div></div>
+    </div>
+
+    <div class="group">
+      <h4>Perry Johnson Registrar (ISO)</h4>
+      <div class="cred"><div><div class="name">ISO/IEC 27001:2022</div><div class="id">Credential ID: 1846</div></div>
+        <a class="verify" href="https://pjrtraining.talentlms.com/unit/viewtestsurvey/id:1846,mode:test" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ISO 14001:2015</div><div class="id">Credential ID: 1766</div></div>
+        <a class="verify" href="https://pjrtraining.talentlms.com/unit/viewtestsurvey/id:1766,mode:test" target="_blank" rel="noopener">Routing Portal</a></div>
+      <div class="cred"><div><div class="name">ISO 9001:2015 Transition Course</div><div class="id">Credential ID: on request</div></div></div>
+      <div class="note">Authority: Perry Johnson Registrar Inc. Training Systems</div>
+    </div>
+
+    <div class="contact-cta">
+      Need to verify any credential above, or request a private reference code?<br>
+      <a href="contact.html">Go to Contact Page →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © Saimon | IT Systems &amp; Operations Management Portfolio — All credentials independently verifiable through their issuing institutions.
+</footer>
 
 </body>
 </html>
-<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 100%; margin: 0 auto 30px auto; padding: 45px 30px; background: radial-gradient(circle at center, #0a1f33 0%, #060e1a 100%); color: #ffffff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.4); border: 1px solid #1a365d; position: relative; overflow: hidden; z-index: 1;">
-    
-    <!-- CYBER IDENTITY MATRIX LINES EFFECT -->
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(rgba(0, 203, 203, 0.015) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 203, 203, 0.015) 1px, transparent 1px); background-size: 30px 30px; pointer-events: none; z-index: -1;"></div>
-    
-    <!-- PALM BIOMETRIC / DATA FLOW LIGHT EFFECT -->
-    <div style="position: absolute; width: 150px; height: 150px; background: #00cbcb; border-radius: 50%; top: -50px; right: -50px; opacity: 0.05; filter: blur(40px); animation: pulseGlow 4s ease-in-out infinite;"></div>
-
-    <!-- MAIN BRANDING & CRYPTO TEXT -->
-    <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-        <span style="background: #005B5B; color: #00cbcb; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; border: 1px solid #00cbcb; box-shadow: 0 0 10px rgba(0,203,203,0.1);">
-            Central Identity Vault
-        </span>
-        <h1 style="color: #00cbcb; margin: 15px 0 10px 0; font-size: 30px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; text-shadow: 0 0 15px rgba(0,203,203,0.2);">
-            Credential Integrity Infrastructure
-        </h1>
-        <p style="color: #cbd5e0; margin: 0 0 25px 0; font-size: 14px; font-weight: 500; line-height: 1.6; max-width: 720px; margin-left: auto; margin-right: auto;">
-            Secure registry architecture for instantaneous validation of global compliance, multi-vendor network systems certifications, and critical enterprise-level operations metadata.
-        </p>
-    </div>
-
-    <!-- GLOBAL COMPLIANCE METRICS -->
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; max-width: 800px; margin: 0 auto; background: rgba(6, 14, 26, 0.85); padding: 12px 15px; border-radius: 8px; border: 1px solid #102a45;">
-        <div style="text-align: center; border-right: 1px dashed #102a45;">
-            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Verification Path</div>
-            <div style="font-size: 15px; font-weight: bold; color: #00cbcb; display: flex; align-items: center; justify-content: center; gap: 5px;">
-                <span style="width: 6px; height: 6px; background: #00cbcb; border-radius: 50%; display: inline-block; animation: cryptPulse 2s infinite;"></span>
-                Encrypted ID
-            </div>
-        </div>
-        <div style="text-align: center; border-right: 1px dashed #102a45;">
-            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Audit Readiness</div>
-            <div style="font-size: 15px; font-weight: bold; color: #38bdf8;">100% Instant</div>
-        </div>
-        <div style="text-align: center;">
-            <div style="font-size: 10px; color: #a0aec0; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 2px;">Registry Status</div>
-            <div style="font-size: 15px; font-weight: bold; color: #00cbcb;">Fully Ledgered</div>
-        </div>
-    </div>
-
-</div>
-
-<!-- EMBEDDED ANIMATION STYLE -->
-<style>
-@keyframes pulseGlow {
-    0%, 100% { opacity: 0.03; transform: scale(1); }
-    50% { opacity: 0.08; transform: scale(1.1); }
-}
-@keyframes cryptPulse {
-    0%, 100% { opacity: 0.4; }
-    50% { opacity: 1; box-shadow: 0 0 6px #00cbcb; }
-}
-</style>
-<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 25px auto 25px auto; padding: 25px 30px; background: rgba(7, 18, 36, 0.03); color: #2a2a2a; border-radius: 8px; border: 1px solid #e2e8f0; border-left: 4px solid #005B5B; position: relative;">
-    
-    <!-- HEADER -->
-    <h3 style="color: #00cbcb; margin: 0 0 12px 0; font-size: 18px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-shadow: 0 0 10px rgba(0,203,203,0.3);">
-    Institutional Validation & Professional Registry
-</h3>
-    
-<p style="font-size: 15px; line-height: 1.8; color: #e0e0e0; margin: 0 0 20px 0; text-align: justify; font-weight: 400;">
-    Welcome to the centralized verification clearinghouse. This registry hosts a comprehensively audited portfolio of over 60 international credentials spanning Network Security, Industrial Automation, Operation Management, Human Resources, Occupational Health & Safety (OHS), TEFL and Executive Resource Management. Each asset deposited within this archive undergoes strict validation mapping—bridging structural operational expertise with global compliance frameworks to assure modern enterprise continuity.
-</p>
-
-<div style="display: flex; align-items: center; gap: 15px; background: rgba(0, 203, 203, 0.1); padding: 15px 20px; border-radius: 8px; border: 1px solid #00cbcb;">
-    <span style="font-size: 24px; color: #00cbcb; animation: pulseIcon 2s infinite;">□</span>
-    <div style="font-size: 14px; color: #ffffff; font-weight: 500; line-height: 1.5;">
-        <strong style="color: #00cbcb; text-transform: uppercase; font-size: 12px; display: block; margin-bottom: 4px; letter-spacing: 1px;">System Capability Integration</strong>
-        All ledger records listed below are integrated with an automated "Copy ID" architecture for seamless, real-time external database verification.
-    </div>
-</div>
-
-</div>
-
-<style>
-@keyframes pulseIcon {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
-}
-</style>
-<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 950px; margin: 30px auto; padding: 35px; background: #0b1a30; color: #ffffff; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); border: 1px solid #1a365d;">
-    
-    <!-- VAULT COMMAND CENTER HEADER -->
-    <div style="text-align: center; margin-bottom: 40px; border-bottom: 2px dashed #00cbcb; padding-bottom: 25px;">
-        <span style="background: #005B5B; color: #00cbcb; padding: 5px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase;">Secure Directory</span>
-        <h2 style="color: #00cbcb; margin: 12px 0 0 0; font-size: 26px; letter-spacing: 0.5px; text-transform: uppercase;">
-            Verified Credentials & Global Certifications Vault
-        </h2>
-        <p style="color: #a0aec0; margin: 5px 0 0 0; font-size: 14px;">Centralized Command Center for ~60 Multi-Domain IT, Security, OHS & Leadership Credentials</p>
-    </div>
-
-    <!-- THREE-COLUMN ARCHITECTURE GRID -->
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
-        
-        <!-- DIRECTORY 1: DIRECT VERIFY ARCHIVE -->
-        <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div>
-                <div style="font-size: 36px; margin-bottom: 10px; color: #00cbcb;">□</div>
-                <h3 style="color: #00cbcb; font-size: 16px; margin: 0 0 12px 0; text-transform: uppercase; border-bottom: 1px solid #005B5B; padding-bottom: 8px;">
-                    1. Direct Verify Archive
-                </h3>
-                <p style="font-size: 12px; color: #cbd5e0; line-height: 1.6; margin-bottom: 15px;">
-                    Instant identity-linked credentials accessible directly on global institution servers via encoded certificate ID paths.
-                </p>
-                <div style="font-size: 12px; color: #a0aec0; line-height: 1.8;">
-                    <strong>Core Providers:</strong>
-                    <ul style="margin: 5px 0; padding-left: 15px;">
-                        <li>Alison Global Education</li>
-                        <li>Chemical Safety Institute</li>
-                        <li>Tech & Networking Labs</li>
-                        <li>TEFL Worldwide Registry</li>
-                    </ul>
-                </div>
-            </div>
-            <div style="margin-top: 20px; padding: 10px; background: rgba(0,203,203,0.1); border-radius: 6px; text-align: center; border: 1px dashed #00cbcb; font-size: 11px; font-weight: 600; color: #00cbcb;">
-                ⚡ ACTION: Click Cert Link
-            </div>
-        </div>
-
-        <!-- DIRECTORY 2: INSTANT CODE PORTAL -->
-        <div style="background: #071224; border: 1px solid #1a365d; border-radius: 8px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div>
-                <div style="font-size: 36px; margin-bottom: 10px; color: #38bdf8;">□</div>
-                <h3 style="color: #38bdf8; font-size: 16px; margin: 0 0 12px 0; text-transform: uppercase; border-bottom: 1px solid #1a365d; padding-bottom: 8px;">
-                    2. Instant Verify Portal
-                </h3>
-                <p style="font-size: 12px; color: #cbd5e0; line-height: 1.6; margin-bottom: 15px;">
-                    Secure validation via institutional verification fields. Requires manual input of provided alpha-numeric system codes.
-                </p>
-                <div style="font-size: 12px; color: #a0aec0; line-height: 1.8;">
-                    <strong>Core Providers:</strong>
-                    <ul style="margin: 5px 0; padding-left: 15px;">
-                        <li>Fortinet Cyber Security</li>
-                        <li>Techview IT Architecture</li>
-                        <li>VMEdu Scrum & Agile</li>
-                        <li>TR & PDI Global Portals</li>
-                    </ul>
-                </div>
-            </div>
-            <div style="margin-top: 20px; padding: 10px; background: rgba(56,189,248,0.1); border-radius: 6px; text-align: center; border: 1px dashed #38bdf8; font-size: 11px; font-weight: 600; color: #38bdf8;">
-                □ ACTION: Input Secure Code
-            </div>
-        </div>
-
-        <!-- DIRECTORY 3: OFFICIAL INQUIRY CHANNELS -->
-        <div style="background: #071224; border: 1px solid #005B5B; border-radius: 8px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div>
-                <div style="font-size: 36px; margin-bottom: 10px; color: #00cbcb;">□</div>
-                <h3 style="color: #00cbcb; font-size: 16px; margin: 0 0 12px 0; text-transform: uppercase; border-bottom: 1px solid #005B5B; padding-bottom: 8px;">
-                    3. Official Inquiry Path
-                </h3>
-                <p style="font-size: 12px; color: #cbd5e0; line-height: 1.6; margin-bottom: 15px;">
-                    Enterprise-grade enterprise credentials requiring metadata reference or formal institutional verification inquiry via corporate email channels.
-                </p>
-                <div style="font-size: 12px; color: #a0aec0; line-height: 1.8;">
-                    <strong>Core Providers:</strong>
-                    <ul style="margin: 5px 0; padding-left: 15px;">
-                        <li>HP QLogic / ZyXEL Labs</li>
-                        <li>AdTran University Ecosystem</li>
-                        <li>CloudU Infrastructure</li>
-                        <li>ISO Audits & Compliances</li>
-                    </ul>
-                </div>
-            </div>
-            <div style="margin-top: 20px; padding: 10px; background: rgba(0,203,203,0.1); border-radius: 6px; text-align: center; border: 1px dashed #00cbcb; font-size: 11px; font-weight: 600; color: #00cbcb;">
-                ✉️ ACTION: Corporate Email Inquiry
-            </div>
-        </div>
-
-    </div>
-
-    <!-- CRYPTO VAULT DISCLOSURE / SUMMARY SUMMARY -->
-    <div style="margin-top: 30px; background: #112d4e; padding: 18px; border-radius: 8px; border-left: 4px solid #38bdf8; font-size: 13px; line-height: 1.6; color: #e2e8f0; border: 1px solid #1a365d; border-left: 4px solid #38bdf8;">
-        <strong style="color: #38bdf8;">Compliance & Verification Security:</strong> To protect intellectual data integrity while ensuring full audit transparency, all 60 credentials are categorized systematically below. Every credential listed is strictly backed by international enterprise protocols, enabling immediate real-time corporate or governmental validation across multiple secure infrastructures.
-    </div>
-
-</div>
-<style>
-  /* ১০০০px চ্যাপ্টা ও ছড়ানো মাস্টার ডিজাইন */
-  #saimon-t1-chappta-hub {
-    margin: 40px auto; max-width: 1000px; background: #004d4d !important; border-radius: 25px;
-    padding: 50px 20px; border: 2px solid #00ffff; text-align: center;
-    font-family: 'Segoe UI', Tahoma, sans-serif; color: #e0f2f1;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: block !important;
-  }
-  #vault-content-final-t1, .arch-section-final-t1 { display: none; animation: fInT1 0.5s ease; }
-  
-  /* বড় ও ছড়ানো ফোল্ডার গ্রিড লেআউট */
-  .grid-layout-final-t1 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 30px; }
-  .folder-card-final-t1 { background: rgba(0, 0, 0, 0.3); border: 1.5px solid rgba(0, 255, 255, 0.3); padding: 25px; border-radius: 15px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 13px; letter-spacing: 1px; }
-  .folder-card-final-t1:hover { border-color: #00ffff; background: rgba(0, 255, 255, 0.1); transform: translateY(-5px); }
-  
-  /* ক্রেডেনশিয়াল কার্ড ও বাটন */
-  .v-card-final-t1 { background: rgba(0, 20, 20, 0.6); border: 1px solid #00ffff; padding: 20px; border-radius: 15px; margin-bottom: 15px; text-align: left; border-left: 6px solid #00ffff; }
-  .v-title-final-t1 { font-size: 15px; font-weight: bold; color: #fff; display: block; margin-bottom: 8px; }
-  .v-id-final-t1 { font-size: 12px; color: #00ffff; background: #002b2b; padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px; border: 1px dashed rgba(0, 255, 255, 0.3); }
-  
-  .v-btn-final-t1 { 
-    text-decoration: none; color: #004d4d !important; background: #00ffff; 
-    padding: 10px 22px; border-radius: 5px; font-size: 12px; font-weight: bold; 
-    display: inline-block; transition: 0.3s; border: none; cursor: pointer; 
-    text-transform: uppercase; letter-spacing: 1px;
-  }
-  .v-btn-final-t1:hover { background: #fff; transform: scale(1.03); }
-
-  .scroll-area-final-t1 { max-height: 450px; overflow-y: auto; margin-top: 20px; padding-right: 5px; }
-  .scroll-area-final-t1::-webkit-scrollbar { width: 4px; } 
-  .scroll-area-final-t1::-webkit-scrollbar-thumb { background: #00ffff; border-radius: 10px; }
-  @keyframes fInT1 { from { opacity: 0; } to { opacity: 1; } }
-</style>
-
-<div id="saimon-t1-chappta-hub">
-  <!-- SECURITY LAYER -->
-  <div id="security-layer-final-t1">
-    <h2 style="color: #00ffff; margin-bottom: 15px; letter-spacing: 1px;">⚡ DIRECT VERIFY ARCHIVE</h2>
-    <div id="captcha-box-final-t1" style="font-size: 30px; letter-spacing: 8px; color: #00ffff; background: #002b2b; padding: 15px; border-radius: 10px; display: inline-block; margin-bottom: 20px; border: 1px dashed #00ffff;">LOADING...</div><br>
-    <input type="text" id="captcha-input-final-t1" style="background: transparent; border: 1px solid #00ffff; color: #fff; padding: 12px; border-radius: 8px; text-align: center; font-size: 18px;" placeholder="ENTER CODE"><br><br>
-    <button onclick="verifyAccessHubT1()" class="v-btn-final-t1" style="padding: 12px 30px;">Initialize Access</button>
-  </div>
-
-  <!-- CONTENT HUB -->
-  <div id="vault-content-final-t1">
-    <h3 style="color: #00ffff;">AUTHORIZED: DIRECT VERIFICATION PATH</h3>
-    <div class="grid-layout-final-t1">
-      <div class="folder-card-final-t1" onclick="openArchiveHubT1('alison-t1')">□ ALISON RECORDS</div>
-      <div class="folder-card-final-t1" onclick="openArchiveHubT1('safety-t1')">□️ CHEMICAL SAFETY</div>
-      <div class="folder-card-final-t1" onclick="openArchiveHubT1('tech-t1')">□ TECH & NETWORK</div>
-      <div class="folder-card-final-t1" onclick="openArchiveHubT1('misc-t1')">□️ TEFL & OTHERS</div>
-    </div>
-
-    <div class="scroll-area-final-t1">
-      <!-- (Tier-1) ALISON (3) -->
-      <div id="alison-t1" class="arch-section-final-t1" style="display:block;">
-        <h5 style="color:#00ffff; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,255,0.2); padding-bottom: 5px;">ALISON | ACADEMIC RECORDS</h5>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Diploma in Operations Management</span><span class="v-id-final-t1">ID: 345-1002510</span><br><a href="https://alison.com/certification/check/0108aca418" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Diploma in Human Resources</span><span class="v-id-final-t1">ID: 347-1002510</span><br><a href="https://alison.com/certification/check/440b576cd5" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Information Control for IT Managers</span><span class="v-id-final-t1">ID: 720-1002510</span><br><a href="https://alison.com/certification/check/c35d43c328" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-      </div>
-
-      <!-- (Tier-2) CHEMICAL SAFETY (8) -->
-      <div id="safety-t1" class="arch-section-final-t1">
-        <h5 style="color:#00ffff; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,255,0.2); padding-bottom: 5px;">CHEMICAL SAFETY ASSOCIATION</h5>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">The COSHH Risk Assessor Certification™</span><span class="v-id-final-t1">ID: 19360629</span><br><a href="https://www.credential.net/1b7b895d-13a5-4d49-8824-8c43705183f9#acc.3yIcKGF2" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">The COSHH Manager Certification™</span><span class="v-id-final-t1">ID: aoz0fovhyk</span><br><a href="https://academy.theknightsofsafety.com/certificates/aoz0fovhyk" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">COSHH and Respiratory Sensitisers Awareness Course</span><span class="v-id-final-t1">ID: z9vrp4cnfn</span><br><a href="https://academy.theknightsofsafety.com/certificates/z9vrp4cnfn" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">COSHH Hazard Communication Awareness</span><span class="v-id-final-t1">ID: e2yo6jpct3</span><br><a href="https://academy.theknightsofsafety.com/certificates/e2yo6jpct3" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">The Safety Data Sheet Awareness Certification™</span><span class="v-id-final-t1">ID: hipbz2sits</span><br><a href="https://academy.theknightsofsafety.com/certificates/hipbz2sits" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Health and Safety Induction</span><span class="v-id-final-t1">ID: qqsqqhxime</span><br><a href="https://academy.theknightsofsafety.com/certificates/qqsqqhxime" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Positive Intervention and Situational Awareness Induction</span><span class="v-id-final-t1">ID: m2kedgktg6</span><br><a href="https://academy.theknightsofsafety.com/certificates/m2kedgktg6" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">SDS Identification: Regulatory Specific Formatting</span><span class="v-id-final-t1">ID: coxmijl3j8</span><br><a href="https://academy.theknightsofsafety.com/certificates/coxmijl3j8" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-      </div>
-
-      <!-- (Tier-3) TECH, AUTOMATION & NETWORK (4) -->
-      <div id="tech-t1" class="arch-section-final-t1">
-        <h5 style="color:#00ffff; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,255,0.2); padding-bottom: 5px;">□ TECH, AUTOMATION & NETWORK</h5>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Build Responsive Website using HTML5, CSS3, JS And Bootstrap</span><span class="v-id-final-t1">ID: 3W0ISX3O7</span><br><a href="https://www.educba.com/certificate/?c=3W0ISX3O7" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">ICSI | CNSS Certified Network Security Specialist</span><span class="v-id-final-t1">Number: 19126081</span><br><a href="https://www.credential.net/07bdb782-0814-4795-87d9-f58894a88f4b#acc.ZecC7z2w" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Automating the Business Process</span><span class="v-id-final-t1">ID: 12769271</span><br><a href="https://www.credential.net/afhsrn5m#acc.UWkfNjlQ" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Automation Essentials</span><span class="v-id-final-t1">ID: 12767600</span><br><a href="https://www.credential.net/qqi3b9cl#acc.WMDSLIpn" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-      </div>
-
-      <!-- (Tier-4) TEFL & OTHERS (3) -->
-      <div id="misc-t1" class="arch-section-final-t1">
-        <h5 style="color:#00ffff; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,255,0.2); padding-bottom: 5px;">□️ TEFL & OTHERS</h5>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Teacher Of English To Speakers Of Other Languages (TEFL)</span><span class="v-id-final-t1">ID: TR6112885022</span><br><a href="https://teacherrecord.com/checking?so_zx=TR6112885022#checking_list/" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">Lean Six Sigma White Belt Certification</span><span class="v-id-final-t1">ID: 18333402</span><br><a href="https://www.credential.net/7861c13e-b85f-4b31-8911-390293a2eece#acc.lRw1U7tz" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-        <div class="v-card-final-t1"><span class="v-title-final-t1">SEMrush Content Marketing Toolkit Exam</span><span class="v-id-final-t1">ID: 694b80161aaf8a6</span><br><a href="https://static.semrush.com/academy-prod/certificate/6246936/SEMrush-Academy-Certificate-694b80161aaf8a6362323ab9041abd15f5ee28174683378463d24c2d2c74c1ab.png" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t1">VIEW RECORD</a></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  var authKeyHubT1 = "";
-  function makeKeyHubT1() {
-    var pool = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; var res = "";
-    for(var i=0; i<6; i++) res += pool.charAt(Math.floor(Math.random() * pool.length));
-    authKeyHubT1 = res; document.getElementById("captcha-box-final-t1").innerText = authKeyHubT1;
-  }
-  function verifyAccessHubT1() {
-    if(document.getElementById("captcha-input-final-t1").value.toUpperCase() === authKeyHubT1) {
-      document.getElementById("security-layer-final-t1").style.display = "none";
-      document.getElementById("vault-content-final-t1").style.display = "block";
-    } else { alert("ACCESS DENIED!"); makeKeyHubT1(); document.getElementById("captcha-input-final-t1").value=""; }
-  }
-  function openArchiveHubT1(id) {
-    document.querySelectorAll('.arch-section-final-t1').forEach(el => el.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
-  }
-  setTimeout(makeKeyHubT1, 200);
-</script>
-<style>
-  /* Premium 1000px Flat Horizontal Architecture matching Vault 1 scale */
-  #saimon-code-terminal-hub {
-    margin: 40px auto; max-width: 1000px; background: #003b3b !important; border-radius: 25px;
-    padding: 50px 20px; border: 2px solid #ffcc00; text-align: center;
-    font-family: 'Segoe UI', Tahoma, sans-serif; color: #e0f2f1;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: block !important;
-  }
-  #vault-content-final-t2, .arch-section-final-t2 { display: none; animation: fInT2 0.5s ease; }
-  
-  /* Large Category Grid Layout matching Vault 1 sizing */
-  .grid-layout-final-t2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 30px; }
-  .folder-card-final-t2 { background: rgba(0, 0, 0, 0.3); border: 1.5px solid rgba(255, 204, 0, 0.3); padding: 25px; border-radius: 15px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 13px; letter-spacing: 1px; color: #ffcc00; }
-  .folder-card-final-t2:hover { border-color: #ffcc00; background: rgba(255, 204, 0, 0.1); transform: translateY(-5px); }
-  
-  /* Verification Cards */
-  .v-card-final-t2 { background: rgba(0, 20, 20, 0.6); border: 1px solid #ffcc00; padding: 20px; border-radius: 15px; margin-bottom: 15px; text-align: left; border-left: 6px solid #ffcc00; }
-  .v-title-final-t2 { font-size: 15px; font-weight: bold; color: #fff; display: block; margin-bottom: 8px; }
-  .v-id-final-t2 { font-size: 13px; color: #ffcc00; background: #002b2b; padding: 5px 10px; border-radius: 4px; display: inline-block; margin-bottom: 10px; border: 1px dashed rgba(255, 204, 0, 0.5); font-weight: bold; }
-  .instruction-text { font-size: 11px; color: #ffcc00; display: block; margin-bottom: 10px; font-style: italic; }
-  
-  .v-btn-final-t2 { 
-    text-decoration: none; color: #000 !important; background: #ffcc00; 
-    padding: 10px 22px; border-radius: 5px; font-size: 12px; font-weight: bold; 
-    display: inline-block; transition: 0.3s; border: none; cursor: pointer; 
-    text-transform: uppercase; letter-spacing: 1px;
-  }
-  .v-btn-final-t2:hover { background: #fff; transform: scale(1.03); }
-
-  .scroll-area-final-t2 { max-height: 450px; overflow-y: auto; margin-top: 20px; padding-right: 5px; }
-  .scroll-area-final-t2::-webkit-scrollbar { width: 4px; } 
-  .scroll-area-final-t2::-webkit-scrollbar-thumb { background: #ffcc00; border-radius: 10px; }
-  @keyframes fInT2 { from { opacity: 0; } to { opacity: 1; } }
-</style>
-
-<div id="saimon-code-terminal-hub">
-  <!-- SECURITY LAYER -->
-  <div id="security-layer-final-t2">
-    <h2 style="color: #ffcc00; margin-bottom: 15px; letter-spacing: 1px;">□ INSTANT VERIFY ENTER CODE</h2>
-    <div id="captcha-box-final-t2" style="font-size: 30px; letter-spacing: 8px; color: #ffcc00; background: #002b2b; padding: 15px; border-radius: 10px; display: inline-block; margin-bottom: 20px; border: 1px dashed #ffcc00;">LOADING...</div><br>
-    <input type="text" id="captcha-input-final-t2" style="background: transparent; border: 1px solid #ffcc00; color: #fff; padding: 12px; border-radius: 8px; text-align: center; font-size: 18px;" placeholder="ENTER CODE"><br><br>
-    <button onclick="verifyAccessHubT2()" class="v-btn-final-t2" style="padding: 12px 30px;">Initialize Access</button>
-  </div>
-
-  <!-- CONTENT HUB -->
-  <div id="vault-content-final-t2">
-    <h3 style="color: #ffcc00;">AUTHORIZED: PORTAL VERIFICATION PATH</h3>
-    <div class="grid-layout-final-t2">
-      <div class="folder-card-final-t2" onclick="openArchiveHubT2('network-t2')">□ IT & NETWORK</div>
-      <div class="folder-card-final-t2" onclick="openArchiveHubT2('mgmt-t2')">□ MANAGEMENT</div>
-      <div class="folder-card-final-t2" onclick="openArchiveHubT2('lang-t2')">□ LANGUAGE</div>
-    </div>
-
-    <div class="scroll-area-final-t2">
-      <!-- IT & NETWORK SECTION -->
-      <div id="network-t2" class="arch-section-final-t2" style="display:block;">
-        <h5 style="color:#ffcc00; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(255,204,0,0.2); padding-bottom: 5px;">□ IT & NETWORK PORTALS</h5>
-        <div class="v-card-final-t2">
-          <span class="v-title-final-t2">NSE 1 Network Security Associate (Fortinet)</span>
-          <span class="instruction-text">Instruction: Copy the Validation Code and paste in the search box.</span>
-          <span class="v-id-final-t2">Validation Code: oR95vEyZtb</span><br>
-          <a href="https://training.fortinet.com/mod/customcert/verify_certificate.php" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t2">OPEN FORTINET PORTAL</a>
-        </div>
-        <div class="v-card-final-t2">
-          <span class="v-title-final-t2">Computer Networking (Techviewteam)</span>
-          <span class="instruction-text">Instruction: Go to "Certificate > Verify Certificate" menu and enter code.</span>
-          <span class="v-id-final-t2">Certificate Code: DWzK0IG32u</span><br>
-          <a href="https://www.techviewteam.com/mod/customcert/verify_certificate.php" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t2">OPEN TECHVIEW PORTAL</a>
-        </div>
-      </div>
-
-      <!-- MANAGEMENT SECTION -->
-      <div id="mgmt-t2" class="arch-section-final-t2">
-        <h5 style="color:#ffcc00; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(255,204,0,0.2); padding-bottom: 5px;">□ MANAGEMENT REGISTRIES</h5>
-        <div class="v-card-final-t2">
-          <span class="v-title-final-t2">Six Sigma Yellow Belt (VMEdu Inc.)</span>
-          <span class="instruction-text">Instruction: Search by Last Name: Chowdhury Saimon or ID in registry.</span>
-          <span class="v-id-final-t2">Credential ID: 721389</span><br>
-          <a href="https://www.6sigmastudy.com/certification/certification-registry" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t2">OPEN REGISTRY</a>
-        </div>
-      </div>
-
-      <!-- LANGUAGE SECTION -->
-      <div id="lang-t2" class="arch-section-final-t2">
-        <h5 style="color:#ffcc00; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(255,204,0,0.2); padding-bottom: 5px;">□️ LANGUAGE VERIFICATION</h5>
-        <div class="v-card-final-t2">
-          <span class="v-title-final-t2">TEFL Certificate (TR & PDI)</span>
-          <span class="instruction-text">Instruction: Insert Name and Credential ID for verification.</span>
-          <span class="v-id-final-t2">Name: SAIMON | ID: TEFL_4838</span><br>
-          <a href="https://theteflcertificate.com/certificate-verification/" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t2">OPEN TEFL PORTAL</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  var authKeyHubT2 = "";
-  function makeKeyHubT2() {
-    var pool = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; var res = "";
-    for(var i=0; i<6; i++) res += pool.charAt(Math.floor(Math.random() * pool.length));
-    authKeyHubT2 = res; document.getElementById("captcha-box-final-t2").innerText = authKeyHubT2;
-  }
-  function verifyAccessHubT2() {
-    if(document.getElementById("captcha-input-final-t2").value.toUpperCase() === authKeyHubT2) {
-      document.getElementById("security-layer-final-t2").style.display = "none";
-      document.getElementById("vault-content-final-t2").style.display = "block";
-    } else { alert("ACCESS DENIED!"); makeKeyHubT2(); document.getElementById("captcha-input-final-t2").value=""; }
-  }
-  function openArchiveHubT2(id) {
-    document.querySelectorAll('.arch-section-final-t2').forEach(el => el.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
-  }
-  setTimeout(makeKeyHubT2, 200);
-</script>
-<style>
-  /* ১ ও ২ নং ভল্টের সাথে হুবহু সামঞ্জস্যপূর্ণ ১০০০px চ্যাপ্টা ও ছড়ানো সাইজ */
-  #saimon-inquiry-terminal-hub {
-    margin: 40px auto; max-width: 1000px; background: #202b30 !important; border-radius: 25px;
-    padding: 50px 20px; border: 2px solid #00ffcc; text-align: center;
-    font-family: 'Segoe UI', Tahoma, sans-serif; color: #e0f2f1;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5); display: block !important;
-  }
-  #vault-content-final-t3, .arch-section-final-t3 { display: none; animation: fInT3 0.5s ease; }
-  
-  /* বড় ও ছড়ানো ফোল্ডার গ্রিড লেআউট */
-  .grid-layout-final-t3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 30px; }
-  .folder-card-final-t3 { background: rgba(0, 0, 0, 0.3); border: 1.5px solid rgba(0, 255, 204, 0.3); padding: 25px; border-radius: 15px; cursor: pointer; transition: 0.3s; font-weight: bold; font-size: 13px; letter-spacing: 1px; color: #00ffcc; }
-  .folder-card-final-t3:hover { border-color: #00ffcc; background: rgba(0, 255, 204, 0.1); transform: translateY(-5px); }
-  
-  /* সিকিউরিটি কমপ্লায়েন্স নোটিশ বক্স */
-  .compliance-notice-box { background: rgba(0, 0, 0, 0.4); border: 1px dashed #00ffcc; padding: 15px; border-radius: 12px; text-align: left; font-size: 12px; line-height: 1.6; color: #b2dfdb; margin-bottom: 25px; }
-  
-  /* ক্রেডেনশিয়াল কার্ড ও স্টাইল */
-  .v-card-final-t3 { background: rgba(0, 20, 20, 0.6); border: 1px solid #00ffcc; padding: 20px; border-radius: 15px; margin-bottom: 15px; text-align: left; border-left: 6px solid #00ffcc; }
-  .v-title-final-t3 { font-size: 15px; font-weight: bold; color: #fff; display: block; margin-bottom: 8px; }
-  .v-id-final-t3 { font-size: 13px; color: #ffcc00; background: #001a1a; padding: 5px 10px; border-radius: 4px; display: inline-block; margin-bottom: 10px; border: 1px dashed rgba(255, 204, 0, 0.5); font-family: monospace; font-weight: bold; }
-  
-  .meta-box-t3 { font-size: 12px; color: #b2dfdb; border-top: 1px solid rgba(0,255,204,0.2); padding-top: 10px; margin-top: 10px; line-height: 1.5; }
-  .mail-link-t3 { color: #00ffcc; text-decoration: none; font-weight: bold; }
-  
-  .v-btn-final-t3 { 
-    text-decoration: none; color: #10171a !important; background: #00ffcc; 
-    padding: 10px 22px; border-radius: 5px; font-size: 12px; font-weight: bold; 
-    display: inline-block; transition: 0.3s; border: none; cursor: pointer; 
-    text-transform: uppercase; letter-spacing: 1px;
-  }
-  .v-btn-final-t3:hover { background: #fff; transform: scale(1.03); }
-
-  .scroll-area-final-t3 { max-height: 450px; overflow-y: auto; margin-top: 20px; padding-right: 5px; }
-  .scroll-area-final-t3::-webkit-scrollbar { width: 4px; } 
-  .scroll-area-final-t3::-webkit-scrollbar-thumb { background: #00ffcc; border-radius: 10px; }
-  @keyframes fInT3 { from { opacity: 0; } to { opacity: 1; } }
-</style>
-
-<div id="saimon-inquiry-terminal-hub">
-  <!-- SECURITY LAYER -->
-  <div id="security-layer-final-t3">
-    <h2 style="color: #00ffcc; margin-bottom: 15px; letter-spacing: 1px;">□️ OFFICIAL INQUIRY</h2>
-    <div id="captcha-box-final-t3" style="font-size: 30px; letter-spacing: 8px; color: #00ffcc; background: #10171a; padding: 15px; border-radius: 10px; display: inline-block; margin-bottom: 20px; border: 1px dashed #00ffcc;">LOADING...</div><br>
-    <input type="text" id="captcha-input-final-t3" style="background: transparent; border: 1px solid #00ffcc; color: #fff; padding: 12px; border-radius: 8px; text-align: center; font-size: 18px;" placeholder="ENTER CODE"><br><br>
-    <button onclick="verifyAccessHubT3()" class="v-btn-final-t3" style="padding: 12px 30px;">Initialize Access</button>
-  </div>
-
-  <!-- CONTENT HUB -->
-  <div id="vault-content-final-t3">
-    
-    <!-- REQUIRED SECURITY NOTICE BOX -->
-    <div class="compliance-notice-box">
-      <strong style="color:#00ffcc; display:block; margin-bottom:5px;">□ OFFICIAL REGISTRAR SECURITY COMPLIANCE NOTICE</strong>
-      To protect candidate identity and prevent credential forgery, these infrastructure registries are locked under encrypted privacy protocols. Direct online verification elements route validation queries instantly to global vendor registrars. Following Credentials should Verify Officially/Visitors may email the issuing authority to verify authenticity.
-    </div>
-
-    <h3 style="color: #00ffcc;">AUTHORIZED: INSTITUTIONAL INQUIRY CHANNELS</h3>
-    <div class="grid-layout-final-t3">
-      <div class="folder-card-final-t3" onclick="openArchiveHubT3('hp-t3')">□️ HP QLOGIC</div>
-      <div class="folder-card-final-t3" onclick="openArchiveHubT3('zyxel-t3')">□ ZyXEL Networks</div>
-      <div class="folder-card-final-t3" onclick="openArchiveHubT3('adtran-t3')">□ AdTran University</div>
-      <div class="folder-card-final-t3" onclick="openArchiveHubT3('cloud-t3')">☁️ CLOUD & BPM</div>
-      <div class="folder-card-final-t3" onclick="openArchiveHubT3('pjr-t3')">⚙️ ISO REGISTRAR</div>
-    </div>
-
-    <div class="scroll-area-final-t3">
-      <!-- HP QLOGIC DISTRICT (9) -->
-      <div id="hp-t3" class="arch-section-final-t3" style="display:block;">
-        <h5 style="color:#00ffcc; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,204,0.2); padding-bottom: 5px;">HP QLOGIC RECORDS</h5>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">QLOGIC ASSOCIATE CERTIFICATION IBM 2013</span><span class="v-id-final-t3">Certification ID: IBM2-30-361-121815-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">QLOGIC ETHERNET ADAPTER TECHNICAL PROFESSIONAL</span><span class="v-id-final-t3">Certification ID: EATP-36-361-021216-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ADAPTER ASSOCIATE (HP)</span><span class="v-id-final-t3">Certification ID: AAHP-33-361-111215-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">FABRICCACHE ASSOCIATE</span><span class="v-id-final-t3">Certification ID: FBCA-24-361-111615-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">FABRICCACHE SPECIALIST</span><span class="v-id-final-t3">Certification ID: FBCS-27-361-111515-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ADAPTER ASSOCIATE (CONVERGED NETWORK)</span><span class="v-id-final-t3">Certification ID: AACN-31-361-111615-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ADAPTER SPECIALIST (CONVERGED NETWORKING)</span><span class="v-id-final-t3">Certification ID: ASCN-32-361-111615-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ADAPTER ASSOCIATE (FIBRE CHANNEL)</span><span class="v-id-final-t3">Certification ID: AAFC-21-361-111615-18760</span></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ADAPTER SPECIALIST (FIBRE CHANNEL)</span><span class="v-id-final-t3">Certification ID: ASFC-23-361-111715-18760</span></div>
-        <div class="meta-box-t3"><b>Official Verification:</b> eMail <a href="mailto:training@qlogic.com" class="mail-link-t3">training@qlogic.com</a><br><b>Metadata Reference:</b> HP QLOGIC User Name: s@imon & eMail ID: reefworriers@gmail.com</div>
-      </div>
-
-      <!-- ZYXEL NETWORKS (7) -->
-      <div id="zyxel-t3" class="arch-section-final-t3">
-        <h5 style="color:#00ffcc; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,204,0.2); padding-bottom: 5px;">ZyXEL NETWORKS RECORDS</h5>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in LTE</span><span class="v-id-final-t3">Credential ID: 330434</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=1159&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in IP DSLAM</span><span class="v-id-final-t3">Credential ID: 304636</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=177&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in Digital Home</span><span class="v-id-final-t3">Credential ID: 3031071</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=375&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in Wireless LAN</span><span class="v-id-final-t3">Credential ID: 3232395</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=179&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in Security</span><span class="v-id-final-t3">Credential ID: 3192816</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=166&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in VoIP</span><span class="v-id-final-t3">Credential ID: 322738</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=16*&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ZCNP in Switch</span><span class="v-id-final-t3">Credential ID: 3202450</span><br><a href="https://education.zyxel.com/myprofile_view_exam_score.asp?C_ID=1*8&" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="meta-box-t3"><b>Official Verification:</b> eMail <a href="mailto:education@zyxel.com.tw" class="mail-link-t3">education@zyxel.com.tw</a><br><b>Metadata Reference:</b> Zyxel Networks User ID: reefworriers@gmail.com</div>
-      </div>
-
-      <!-- ADTRAN UNIVERSITY (11) -->
-      <div id="adtran-t3" class="arch-section-final-t3">
-        <h5 style="color:#00ffcc; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,204,0.2); padding-bottom: 5px;">ADTRAN UNIVERSITY RECORDS</h5>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ASP/UCSS v4.0</span><span class="v-id-final-t3">Credential ID : 22506762922</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762922" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ASP/vWLAN</span><span class="v-id-final-t3">Credential ID : 22506762927</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762927" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ASP/UCAS</span><span class="v-id-final-t3">Credential ID: 22506762905</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762905" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ASP/IPBG</span><span class="v-id-final-t3">Credential ID : 22506762878</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506762878" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/UCAS</span><span class="v-id-final-t3">Credential ID: 22506774398</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774398" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/vWLAN</span><span class="v-id-final-t3">Credential ID : 22506774402</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774402" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/FTTN (1600CSYS8002T)</span><span class="v-id-final-t3">Credential ID: 22506535973</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506535973" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/OPTI-6100 (1600CSYS8003T)</span><span class="v-id-final-t3">Credential ID : 22506153034</span><br><a href="https://gm1.geolearning.com/geonext/adtran/coursesummary.CourseCatalog.geo?id=22506153034" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/TA5000 (1600CSYS8001T)</span><span class="v-id-final-t3">Credential ID: 22506153031</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506153031" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/UCSS</span><span class="v-id-final-t3">Credential ID: 22506774399</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774399" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ATSA/IPBG</span><span class="v-id-final-t3">Credential ID: 22506774397</span><br><a href="https://gm1.geolearning.com/geonext/adtran/NewCourseCatalog.geo?id=22506774397" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="meta-box-t3"><b>Official Verification:</b> eMail <a href="mailto:adtranuniversity@adtran.com" class="mail-link-t3">adtranuniversity@adtran.com</a> ; cindy.stone@adtran.com ; pat.garner@adtran.com<br><b>Metadata Reference:</b> AdTran University > User eMail (Cert ID): reefworriers@gmail.com</div>
-      </div>
-
-      <!-- CLOUD & QUT BPM (6) -->
-      <div id="cloud-t3" class="arch-section-final-t3">
-        <h5 style="color:#00ffcc; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,204,0.2); padding-bottom: 5px;">CLOUD UNIVERSITY & QUT-BPM</h5>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">HE IPv6 Certified Explorer (Hurricane Electric)</span><span class="v-id-final-t3">Credential ID : 65461b1eb0756b1.51266408</span><br><a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=Saimon75" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a><div class="meta-box-t3">Verify via eMail: <a href="mailto:info@he.net" class="mail-link-t3">info@he.net</a> | Account Name: Saimon75</div></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">Privileged Password Security (Thycotic Academy)</span><span class="v-id-final-t3">Credential ID 23f8c925</span><br><a href="https://academy.thycotic.com/certificate/23f8c925/" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a><div class="meta-box-t3">Verify via eMail: <a href="mailto:PAMcertification@thycotic.com" class="mail-link-t3">pamcertification@thycotic.com</a></div></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">Fundamentals of BPM (QUT-BPM)</span><span class="v-id-final-t3">CRICOS No. 00213J</span><br><a href="https://www.qut.edu.au/study/open-online-learning" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a><div class="meta-box-t3">Verify via eMail: <a href="mailto:admin@edcastcloud.com" class="mail-link-t3">admin@edcastcloud.com</a> ; admin@edcast.com | Ref: reefworriers@gmail.com</div></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">Cloud Web Hosting Certificate (Rackspace)</span><span class="v-id-final-t3">ID: CloudU-814e62c1-e843-40f1-b945-50d1894e3fcd_Cloud_Web_Hosting_Certification</span><div class="meta-box-t3">Verify via eMail: <a href="mailto:cloudu@rackspace.com" class="mail-link-t3">cloudu@rackspace.com</a></div></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">CloudU Certificate (Rackspace)</span><span class="v-id-final-t3">ID: CloudU-887b6be9-b0f6-4634-919e-1c5d989f4464_CloudU_Certification</span><div class="meta-box-t3">Verify via eMail: cloudu@rackspace.com</div></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">Big Data Certificate (Rackspace)</span><span class="v-id-final-t3">ID: CloudU-963aa682-043d-43d9-991c-4caa5fb6c6f0_Big Data_Certification</span><div class="meta-box-t3">Verify via eMail: steven.villarreal@rackspace.com | Ref: saimon1975 & reefworriers@gmail.com</div></div>
-      </div>
-
-      <!-- PJR ISO REGISTRAR (3) -->
-      <div id="pjr-t3" class="arch-section-final-t3">
-        <h5 style="color:#00ffcc; margin-bottom:15px; text-align: left; border-bottom: 1px solid rgba(0,255,204,0.2); padding-bottom: 5px;">□️ PERRY JOHNSON REGISTRAR (ISO)</h5>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ISO/IEC 27001:2022</span><span class="v-id-final-t3">Credential ID 1846</span><br><a href="https://pjrtraining.talentlms.com/unit/viewtestsurvey/id:1846,mode:test" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ISO 14001:2015</span><span class="v-id-final-t3">Credential ID 1766</span><br><a href="https://pjrtraining.talentlms.com/unit/viewtestsurvey/id:1766,mode:test" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <div class="v-card-final-t3"><span class="v-title-final-t3">ISO 9001:2015 Transition Course</span><span class="v-id-final-t3">Credential ID 1**6</span><br><a href="https://talentlms.com" target="_blank" rel="noreferrer" referrerpolicy="no-referrer" class="v-btn-final-t3">ROUTING PORTAL</a></div>
-        <p style="font-size:11px; color:#ffcc00; margin-left:10px; margin-top:10px;"><b>Authority:</b> Perry Johnson Registrar Inc. Training Systems</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  var authKeyHubT3 = "";
-  function makeKeyHubT3() {
-    var pool = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; var res = "";
-    for(var i=0; i<6; i++) res += pool.charAt(Math.floor(Math.random() * pool.length));
-    authKeyHubT3 = res; document.getElementById("captcha-box-final-t3").innerText = authKeyHubT3;
-  }
-  function verifyAccessHubT3() {
-    if(document.getElementById("captcha-input-final-t3").value.toUpperCase() === authKeyHubT3) {
-      document.getElementById("security-layer-final-t3").style.display = "none";
-      document.getElementById("vault-content-final-t3").style.display = "block";
-    } else { alert("ACCESS DENIED!"); makeKeyHubT3(); document.getElementById("captcha-input-final-t3").value=""; }
-  }
-  function openArchiveHubT3(id) {
-    document.querySelectorAll('.arch-section-final-t3').forEach(el => el.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
-  }
-  setTimeout(makeKeyHubT3, 200);
-</script>
